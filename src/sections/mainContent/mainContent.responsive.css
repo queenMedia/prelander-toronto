@@ -1,0 +1,7 @@
+@media screen and (max-width: 993px) {
+    .main_content {
+        min-width: 0;
+        max-width: 720px;
+    }
+}
+

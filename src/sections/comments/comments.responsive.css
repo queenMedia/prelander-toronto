@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+    .comments-posts-container {
+       border: none;
+    }
+}

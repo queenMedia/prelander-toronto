@@ -1,0 +1,79 @@
+.session_header{
+	width: 100%;
+	max-height: 135px;
+	min-height: 89px;
+	height: 135px;
+	padding: 0 45px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 60px;
+}
+
+.session_header_list_item{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo_responsive{
+	width: 80%;
+}
+
+.session_header_aside_container{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.session_header_aside_container_right{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.burguer_button{
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.burguer_button_line{
+	width: 14px;
+	height: 2px;
+	display: block;
+	background: var(--text-black);
+	border-radius: 2px;
+}
+
+.session_header_list_item::before{
+	width: 24px;
+	height: 24px;
+	margin: 0 10px 0 0;
+	display: block;
+	content: "";
+	background: var(--bg-image-user) no-repeat center/cover;
+}
+
+.session_header_links{
+	height: 15px;
+	padding: 0 8px 0 0;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 14px;
+	color: var(--text-black);
+	border-right: solid 1px var(--text-black);
+}
+
+.session_header_button{
+	max-width: 150px;
+	min-width: 87px;
+	padding: 8px 17px;
+	background: var(--bg-secondary);
+	text-decoration: none;
+	color: var(--text-white);
+	font-size: clamp(12px, 1vw, 16px);
+	font-weight: 700;
+}

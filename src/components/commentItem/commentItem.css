@@ -1,0 +1,95 @@
+/******************/
+.comment-item {
+    display: flex;
+    padding: 10px 0;
+    margin: 10px 0;
+    gap: 5px;
+    font-family: Tahoma;
+    border-bottom: 1px solid var(--color-gray-fb-comments-secondary);
+}
+.fb-profile-photo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 0 !important;
+    display: inline;
+}
+.comment-content {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+.comment_like_underline{
+    border-bottom: 1px dotted var(--color-gray-fb-comments);
+}
+.comment-likes{
+    color: var(--color-link-comments);
+    font-style: italic;
+    padding: 0 10px;
+}
+.comment-text {
+    width: 100%;
+    margin: 0;
+    padding: 4px 10px;
+    display: flex;
+    flex-direction: column;
+    color: #1d2129;
+    border-radius: 18px;
+    box-sizing: border-box;
+    position: relative;
+}
+.like-container {
+    position: absolute;
+    bottom: -11px;
+    right: -8px;
+    height: 20px;
+    min-width: 36px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    color: #8d949e;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 2px 6px 2px 2px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.like-container img { 
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    margin-right: 3px;
+    padding: 0 !important;
+}
+
+.fb-comment-name {
+    font-weight: 600;
+    color: var(--color-blue-fb);
+    text-decoration: none;
+}
+.comment-likes a{
+    text-decoration: none;
+    color: var(--color-blue-fb);
+}
+.comment-likes a:after {
+    content: '·';
+    color: var(--color-gray-fb-comments);
+    padding: 3px;
+}
+.comment-likes span {
+    color: var(--color-gray-fb-comments);
+}
+
+
+
+/**********************/

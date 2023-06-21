@@ -1,0 +1,20 @@
+.testimonials-section a {
+    text-decoration: none;
+    color: inherit;
+}
+.testimonials-section {
+    width: 90%;
+    margin: 0;
+    padding: 0;   
+    padding-top: 30px;
+    font-family: var(--font-noto-serif-georgian);
+}
+.testimonials-title {
+    margin: 8px 0 20px 0;
+    color: var(--color-gray-666);
+    border-bottom: 2px solid var(--color-blue-testimonials);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Georgia;
+}

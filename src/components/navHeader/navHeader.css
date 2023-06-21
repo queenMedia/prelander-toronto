@@ -1,0 +1,118 @@
+.nav_header{
+	width: 100%;
+	min-height: 65px;
+	margin-top: 6px;
+	padding: 0;
+	background: var(--bg-primary);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 2;
+}
+.logo_container {
+	min-height: 65px;
+}
+.logo_responsive {
+	max-width: 84px;
+	min-width: 19px;
+	margin: 0 10px;
+}
+
+.cloud_icon{
+	width: 30px;
+	height: 30px;
+}
+
+.nav_header_list{
+	width: 100%;
+	height: 100%;
+	min-height: 65px;
+	display: flex;
+	margin: 0;
+	padding-left: 0;
+	justify-content: center;
+	align-items: flex-end;
+
+}
+
+.nav_header_list_content {
+	width: 100%;
+	height: 100%;
+	min-height: 65px;
+	display: flex;
+	margin: 0;
+	padding-left: 0;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.nav_header_list_right{
+	width: fit-content;
+	display: flex;
+	margin: 0;
+	padding-left: 0;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.nav_header_list_item{
+	list-style: none;
+	min-height: 65px;
+
+}
+.nav_header_list_item_bordered{
+	list-style: none;
+	min-height: 65px;
+	border-right: 1px solid var(--bg-border-nav);
+	border-left: 1px solid var(--bg-border-nav);
+}
+
+.nav_header_list_item_group{
+	list-style: none;
+	min-height: 65px;
+	display: flex;
+	border-right: 1px solid var(--bg-border-nav);
+	border-left: 1px solid var(--bg-border-nav);
+}
+
+.nav_header_links{
+	min-height: 65px;
+	font-size: 16px;
+	font-weight: 700;
+	color: var(--text-primary);
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	padding: 14px 10px;
+	position: relative;
+	text-shadow: 0 1px 1px #000;
+	text-decoration: none;
+}
+.nav_header_links_icons{
+	font-size: 18px;
+	min-height: 65px;
+	font-weight: 700;
+	color: var(--text-white);
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	padding: 14px 16px;
+	position: relative;
+	text-shadow: 0 1px 1px #000;
+	text-decoration: none;
+}
+
+.nav_header_links_group{
+	display: flex;
+	font-weight: 700;
+	font-size: 16px;
+	color: var(--text-primary);
+	text-transform: uppercase;
+	padding: 14px 10px;
+	position: relative;
+	align-items: center;
+	text-decoration: none;
+}
+
+.nav_header_links_selected{
+	background: var(--bg-primary-selected);
+}

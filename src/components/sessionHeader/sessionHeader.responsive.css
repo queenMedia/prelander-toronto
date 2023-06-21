@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px) {
+	.burguer_button {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.session_header {
+		justify-content: space-between;
+		gap: 0px;
+	}
+	.logo_responsive{
+		width: 60%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.session_header_links {
+		display: none;
+	}
+	.session_header{
+		padding: 0 15px;
+		position: fixed;
+		top: 6px;
+		z-index: 9999;
+		max-height: 58px;
+		min-height: 0;
+		background: var(--text-white);
+	}
+	.session_header_button{
+		padding: 0;
+	}
+	.session_header_aside_container_right:before{
+		display: block;
+		width: 1px;
+		height: 12px;
+		border-left: 1px solid black;
+		content: "";
+	}
+	.logo_responsive{
+		width: 40%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.logo_responsive{
+		width: 50%;
+		min-width: 120px;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 365px) {
+	.session_header_list_item::before{
+		display: none;
+	}
+}
+
+

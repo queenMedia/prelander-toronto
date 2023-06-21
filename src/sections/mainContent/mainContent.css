@@ -1,0 +1,11 @@
+.main_content{
+    max-width: 750px;
+    width: 100%;
+    min-width: 616px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content_text{
+
+}

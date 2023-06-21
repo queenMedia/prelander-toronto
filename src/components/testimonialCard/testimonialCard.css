@@ -1,0 +1,31 @@
+.testimonial-card-description a {
+    color: var(--color-blue-testimonials) !important;
+}
+.testimonial-card-title {
+    margin: 8px 0 20px 0;
+    color: var(--color-gray-666);
+    border-bottom: 2px solid var(--color-blue-testimonials);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.testimonial-card-image {
+    margin: 0 auto 5px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.testimonial-card-description {
+    margin: 0 0 5px 0;
+    line-height: 1.5;
+    color: #000;
+    font-size: 15px;
+    font-family: Verdana;
+}
+.testimonial-card-description-2 {
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+    color: #000;
+    font-family: Verdana;
+    font-size: 15px;
+}

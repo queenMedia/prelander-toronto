@@ -1,0 +1,56 @@
+.sticky-container {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  z-index: 200;
+}
+.sticky-button {
+  display: inline-block;
+  vertical-align: middle;
+}
+.sticky-button a {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  color: #fff;
+  background: #eb6769;
+  border: 1px solid #c85d05;
+  font-size: 26px;
+  padding: 5px 8px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 570px) {
+  .sticky-button a {
+    font-size: 18px;
+    background: transparent;
+    border: none;
+  }
+  .sticky-button {
+    background: #eb6769;
+  }
+  .sticky-container {
+    padding: 5px 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .sticky-button a {
+    font-size: 18px;
+    background: transparent;
+    border: none;
+  }
+  .sticky-button {
+    background: #eb6769;
+  }
+  .sticky-container {
+    padding: 5px 0;
+  }
+}

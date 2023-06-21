@@ -1,0 +1,39 @@
+.step-card {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid var(--color-gray-ccc);
+    background: var(--bg-gray-steps);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+}
+.step-card h4 {
+    padding-top: 5px;
+    font-family: OpenSans-Bold;
+    font-size: 21px;
+    line-height: 28px;
+    color: var(--color-gray-222);
+    margin: 0 0 20px 0;
+    font-weight: 500;
+}
+.step-card p {
+    margin: 0 0 5px 0;
+}
+.step-card p a {
+    color: var(--color-blue-testimonials);
+}
+.card_img_content_step {
+    border: 1px solid rgb(128, 128, 12);
+    max-width: 100%;
+}
+
+.check_step_image{
+    width: 30px;
+    height: 30px;
+}
+.step_card_title_container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-style: italic;
+}
