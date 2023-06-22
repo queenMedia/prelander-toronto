@@ -7,7 +7,7 @@ export const Steps = () => {
     return (
         <div className="steps-section">
             <h5 className="steps-title">
-                <TelegramRedirect>Suivez les 3 étapes simples pour commencer:</TelegramRedirect>
+                <TelegramRedirect>Siga os 3 Simples Passos para Começar:</TelegramRedirect>
             </h5>
             {stepsData.map((item, index) => {
                 return (

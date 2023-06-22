@@ -10,7 +10,7 @@ export function Comments() {
         <section className="comments-section">
             <div className="comments-content">
                 <div className="comments-posts-container">
-                    <TelegramRedirect className="link-comments">Le plus pertinent</TelegramRedirect>
+                    <TelegramRedirect className="link-comments">Comentários # Recentes</TelegramRedirect>
                     {commentsData.map((item, index) => {
                         return (
                             <CommentItem 
@@ -18,12 +18,9 @@ export function Comments() {
                                 currentComment={item} />
                         )
                     })}
-                    <TelegramRedirect className="link-footer"># socialni vtičnik</TelegramRedirect>
                 </div>
             </div>
-            <p className="all_right_reserve">
-                © 2023 Avtorske Pravice Vse Pravice zadržane.
-            </p>
+           
         </section>
     )
 }

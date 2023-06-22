@@ -15,11 +15,11 @@ export function CommentItem({currentComment}) {
                     {currentComment.text}  
                 </div>
                 <div className="comment-likes">
-                    <TelegramRedirect>Odgovorite .</TelegramRedirect>
+                    <TelegramRedirect>Responder .</TelegramRedirect>
                     {currentComment.likes}             
 
-                    <TelegramRedirect> Všečkajte</TelegramRedirect>
-                    <span className="comment_like_underline">{(currentComment.hours ? `${currentComment.hours} urama` : `${currentComment.minutes} minut nazaj`)}</span>
+                    <TelegramRedirect> Gostar</TelegramRedirect>
+                    <span className="comment_like_underline">{(currentComment.hours ? `${currentComment.hours} horas` : `${currentComment.minutes} minutos atrás`)}</span>
                 </div>
             </div>
         </div>

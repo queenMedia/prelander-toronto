@@ -2,6 +2,9 @@
     width: 100%;
     padding: 0 15px;
 }
+.first_content_title {
+    font-weight: bold;
+}
 
 .first_content_title_link{
     margin: 30px 0 16px 0;
@@ -9,7 +12,7 @@
     font-size: clamp(30px, 3vw, 46px);
     color: var(--text-black);
     font-family: "OpenSans";
-    font-weight: 500;
+    font-weight: bold;
     line-height: 0.9;
 }
 
@@ -61,4 +64,15 @@
 .image_responsive_custom_transactions{
     max-height: 495px;
     max-width: 294px;
+}
+.steps_title {
+    color: #222;
+    font-family: OpenSans-Bold;
+    font-size: 26px;
+    margin: 0 0;
+    font-weight: 100;
+}
+.steps_title a {
+    color: #0198bd;
+    font-size: 24px;
 }

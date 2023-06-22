@@ -7,7 +7,7 @@ export const Testimonials = () => {
     return (
         <div className="testimonials-section">
             <h5 className="testimonials-title">
-                <TelegramRedirect>RESULTAT DU LECTEUR</TelegramRedirect>
+                <TelegramRedirect>RESULTADOS DE LEITORES</TelegramRedirect>
             </h5>
             {testimonialsData.map((item, index) => {
                 return (

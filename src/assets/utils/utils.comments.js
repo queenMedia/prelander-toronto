@@ -14,129 +14,175 @@ import profile13 from "../../assets/images/fb-comments/comment13.jpg"
 import profile14 from "../../assets/images/fb-comments/comment14.jpg"
 import profile15 from "../../assets/images/fb-comments/comment15.jpg"
 import profile16 from "../../assets/images/fb-comments/comment16.jpg"
-import profile17 from "../../assets/images/fb-comments/comment11.jpg"
-import profile18 from "../../assets/images/fb-comments/comment6.jpg"
-import profile19 from "../../assets/images/fb-comments/comment3.jpg"
+import profile17 from "../../assets/images/fb-comments/comment17.jpg"
+import profile18 from "../../assets/images/fb-comments/comment18.jpg"
+import profile19 from "../../assets/images/fb-comments/comment19.jpg"
+import profile20 from "../../assets/images/fb-comments/comment20.jpg"
+import profile21 from "../../assets/images/fb-comments/comment21.jpg"
+import profile22 from "../../assets/images/fb-comments/comment22.jpg"
+import profile23 from "../../assets/images/fb-comments/comment23.jpg"
 
 export const commentsData = [
     {
-        name: "Petra Vidmar",
-        text: "Trgujem zadnjih par tednov in sem naredila majhen prihodek €2,300. To obožujem!",
+        name: "Maria Carmin",
+        text: "Eu estive negociando pela última semana e lucrei €6,182. Estou amando!",
         img: profile1,
         minutes: 12,
         likes: 13
     },
     {
-        name: "Laura Godec",
-        text: "To sem videla na TV in se včeraj prijavila, dosegla sem okoli €25.",
+        name: "Jennifer Salgado",
+        text: "Eu vi no TV e me cadastrei ontem. Já lucrei €63.",
         img: profile2,
         minutes: 13,
         likes: 6
     },
     {
-        name: "Katja Kmet",
-        text: "Moj prijatelj je to uporabil in mi priporočal, si bom ogledala.",
+        name: "Samantha Torquel",
+        text: "Um amigo meu usou e recomendou. Vou experimentar.",
         img: profile3,
+        minutes: 13,
+        likes: 6
+    },
+    {
+        name: "Ricardo Jaccieri",
+        text: "É tão fácil de usar, você apenas deposita dinheiro e o robô faz todo o trabalho para você.",
+        img: profile4,
         minutes: 25,
         likes: 19
     },
     {
-        name: "Gabriijel Kopač",
-        text: "To mi je dalo boljšo vrnitev na investicijo kot moja mapa delnic!",
-        img: profile4,
+        name: "Rebeca Reis",
+        text: "Eu vi isso nas notícias. Obrigado por compartilhar esse artigo!",
+        img: profile5,
         minutes: 10,
         likes: 32
     },
     {
-        name: "Tadej Novak",
-        text: "Enostavno je za uporabo, samo vplačate denar in robot naredi vso delo namesto vas.",
-        img: profile5,
+        name: "Sabrina Martel",
+        text: "Eu ouvi tanto sobre bitcoin e todos estão usando isso. Vou dar uma chance!",
+        img: profile6,
         minutes: 35,
         likes: 43
     },
     {
-        name: "Pie Kovač",
-        text: "To sem videla na poročilih. Hvala vam za deljenje tega članka!",
-        img: profile6,
+        name: "Ricardo Campos",
+        text: "Eu fiz mais de €3,800 com apenas uma semana, estou tão perto de deixar meu trabalho.",
+        img: profile7,
         hours: 1,
         likes: 3
     },
     {
-        name: "Julia Kopač",
-        text: "Slišala sem že tako veliko o Bitcoinu in vsi ga uporabljajo, to bom poskusila!",
-        img: profile7,
-        hours: 2,
+        name: "Isabel Santiago",
+        text: "Eu comprei meu primeiro bitcoin ontem e estou realmente empolgada para ver o que posso fazer com isso.",
+        img: profile8,
+        hours: 1,
         likes: 0
     },
     {
-        name: "Val Kuhar",
-        text: "Zaslužim sem preko €1,430 po samo enem tednu, tako blizu sem zapuščanju službe in početju tega za polni delovni čas.",
-        img: profile8,
-        hours: 2,
+        name: "Maria do Carmo",
+        text: "Funcionou para mim! Do jeito que eu imaginei. Foi bem fácil e eu queria que soubessem que funciona.",
+        img: profile9,
+        hours: 1,
         likes: 12
     },
     {
-        name: "Nea Lončar",
-        text: "Včeraj sem kupila svoj prvi Bitcoin in se veselim, da vidim kaj lahko to naredi zame v prihajajočih dneh.",
-        img: profile9,
+        name: "Carla Pereira",
+        text: "Obrigada pela informação, acabei de começar a usar a The Crypto Genius.",
+        img: profile10,
+        hours: 1,
+        likes: 12
+    },
+    {
+        name: "João Cardoso",
+        text: "Estive tão ocupado com meus filhos ultimamente, mas isso é perfeito para mim. Consegui cerca de €505 em 4 dias. Pouco mas um bom começo!",
+        img: profile11,
         hours: 2,
         likes: 53
     },
 
     {
-        name: "Maja Mlinar",
-        text: "to je zame delovalo! Delovalo je tako kot sem mislila da bo. Bilo je precej preprosto in samo želim, da drugi veste, ko nekaj deluje.",
-        img: profile10,
-        hours: 6,
+        name: "Tiago Moraes",
+        text: "Fiquei tão impressionado com isso, eu depositei mais de €1,200 na minha conta e já tive 4 vezes o retorno.",
+        img: profile12,
+        hours: 2,
         likes: 73
     },
     {
-        name: "Pija Pevec",
-        text: "Hvala vam za podatke, sem pravkar začela uporabljati platformo.",
-        img: profile11,
+        name: "Carla Perez",
+        text: "Muito fácil e rápido para usar. Não conheço muito tecnologia, mas aprendi fácil. Ganhei certa de €349 em um dia!",
+        img: profile13,
         hours: 2,
         likes: 16
     },
     {
-        name: "Andreas Ribič",
-        text: "Zadnje čase sem tako zaposlen z otroci, ampak to popolnoma dobro paše. Izmenjal sem do okoli €190 v 4 dneh. To je malo, ampak res dober začetek!",
-        img: profile12,
-        hours: 2,
+        name: "Amanda Coelho",
+        text: "Acabei de me registrar, me desejem sorte pessoal.",
+        img: profile14,
+        hours: 3,
         likes: 67
     },
     {
-        name: "Mark Mlakar",
-        text: "Tako sem navdušen nad tem, vplačal sem preko €500 sem do sedaj vplačal v svoj račun in zaslužil več kot 4 krat toliko.",
-        img: profile13,
-        hours: 2,
+        name: "Bruno Silva",
+        text: "Meu amigo acabou de me enviar isso por e-mail no trabalho. Acho que funciona bem mesmo.",
+        img: profile15,
+        hours: 3,
         likes: 43
     },
     {
-        name: "Nina Bolha",
-        text: "Zelo enostavno za uporabo ter zelo hitro. Res nisem tehnična oseba, ampak sem se na to enostavno navadila. Zaslužil mi je že okoli €130 po samo enem dnevu!!",
-        img: profile14,
-        hours: 2,
+        name: "Francisco Nogueira",
+        text: "Bom povedla vsem frendom , thanx za info",
+        img: profile16,
+        hours: 3,
         likes: 54
     },
     {
-        name: "Neža Krajnc",
-        text: "Sem se pravkar prijavila, želite mi srečo ljudje.",
-        img: profile15,
-        hours: 3,
+        name: "Luis Felipe",
+        text: "Não tinha certeza se me cadastrava, mas ainda bem que cadastrei. Fiz €240 em apenas 2 horas. Muito fácil e rápido de usar, nada poderia ser mais rápido.",
+        img: profile17,
+        hours: 4,
         likes: 45
     },
     {
-        name: "Andraž Zupančič",
-        text: "Moja prijateljica mi je to poslala po e-pošti, prijatelj v službi ji je povedal o tem. Zdi se mi, da precej dobro deluje.",
-        img: profile16,
-        hours: 3,
+        name: "Otávio Buarque",
+        text: "Fui em frente e fiz o depósito inicial. Não posso esperar para ver o que vai acontecer.",
+        img: profile18,
+        hours: 4,
         likes: 63
     },
     {
-        name: "Dominik Šuštar",
-        text: "Vsem prijateljem bom o tem povedal, hvala za podatke",
-        img: profile17,
-        hours: 3,
+        name: "Enzo Mello",
+        text: "Esse tem de ser a maneira mais fácil de se investir em Bitcoins, até eu sem experiência nenhuma consegui.",
+        img: profile19,
+        hours: 6,
+        likes: 61
+    },
+    {
+        name: "Priscila Gabos",
+        text: "Tentei tanto conseguir entrar nesse mundo. Alguém por favor me garanta que isso funciona!",
+        img: profile20,
+        hours: 8,
+        likes: 61
+    },
+    {
+        name: "Samuel Bianchi",
+        text: "Experimentei a The Crypto Genius algum tempo atrás e funciona bem.",
+        img: profile21,
+        hours: 8,
+        likes: 61
+    },
+    {
+        name: "João Baladi",
+        text: "Alguns de meus amigos investiram em bitcoin e lucraram muito. Logo estarei me juntando a eles.",
+        img: profile22,
+        hours: 8,
+        likes: 61
+    },
+    {
+        name: "Thainá Parati",
+        text: "Não sabia quais seriam os resultados, alguém sabe se você consegue investir em outras criptomoedas?",
+        img: profile23,
+        hours: 9,
         likes: 61
     }
 ];

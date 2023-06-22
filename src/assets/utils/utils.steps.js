@@ -1,21 +1,21 @@
-import step1 from "../../assets/images/steps/step1.png"
+import step1 from "../../assets/images/steps/step1.jpg"
 import step2 from "../../assets/images/steps/step2.jpg"
-import step3 from "../../assets/images/steps/step3.jpg"
+import step3 from "../../assets/images/steps/step3.svg"
 
 export const stepsData = [
     {
-        title: "Korak 1:",
-        description: "Prijavite se za vaš brezplačen račun",
+        title: "Passo 1:",
+        description: "BAbra uma conta de graça",
         img: step1
     },
     {
-        title: "Korak 2:",
-        description: "Vplačajte najmanj €300",
+        title: "Passo 2:",
+        description: "Deposite o mínimo de €250",
         img: step2
     },
     {
-        title: "Korak 3:",
-        description: "Dvignite prihodke na vašo banko!",
+        title: "Passo 3:",
+        description: "Retire seus lucros para seu banco!",
         img: step3
     }
 ];

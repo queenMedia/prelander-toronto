@@ -15,13 +15,7 @@ import "./secondContent.responsive.css";
 export const SecondContent = (props) => {
   return (
     <article className="second_content">
-      <h2 className="second_content_title_link_h2 second_content_title">
-        <TelegramRedirect>
-          <b>
-            DONOSNA SKRIVNOST SLUŽENJA DENARJA, KATERE BANKE NE ŽELIJO, DA JO POZNATE
-          </b>
-        </TelegramRedirect>
-      </h2>
+      
       <p className="text_general_content">{CHARACTER} nadaljuje,</p>
       <p>
         <em className="text_general_content">

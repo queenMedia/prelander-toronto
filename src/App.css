@@ -1,31 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 :root {
-  --text-white: #ffffff;
+  --bg-header-top: #2a2a2a;
+  --bg-footer: #333;
+  --bg-white: #fff;
+
+  --text-links: #0198bd;
+  --text-link: #0198bd;
+
+  --text-white: #FFFFFF;
   --text-black: #000000;
   --text-light: #333333;
-  --text-link: #0198bd;
-  --text-primary: #d9dcef;
 
   --bg-image-user: url("./assets/icons/user-fill-icon.png");
-  --bg-image-arrow: url("./assets/icons/arrow-down.png");
-
+  --bg-nav-header: #f1ebe4;
+  --bg-header-top: #2c415c;
+  
   --bg-white: #fff;
-  --bg-primary: #404faf;
-  --bg-primary-selected: #5764b9;
+  --bg-primary: #2c2c2c;
   --bg-secondary: #0f3e61;
   --bg-gray-line-nav: #383838;
   --bg-orange: #f18b06;
-  --bg-border-nav: #5d69bb;
+  
 
   --bg-white: #fff;
+  --bg-primary: #2c2c2c;
   --bg-secondary: #0f3e61;
   --bg-footer: #2a303b;
   --bg-gray-footer: #a4a9b4;
   --bg-gray-steps: #f5f9fa;
-  --bg-gray-progress-bar: #ccc;
-  --bg-gray-progress-bar-fill: rgba(0, 0, 0, 0.5);
-
   --box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
 
   --color-white: #fff;
@@ -34,15 +37,16 @@
   --color-gray-666: #666;
   --color-gray-ccc: #ccc;
   --color-gray-222: #222;
-  --color-gray-fb-comments-secondary: #E2E2E2;
   --color-gray-fb-comments: #606770;
-  --color-link-comments: #3B5998;
+  --color-link-comments: #337ab7;
   --color-blue-fb: #365899;
   --color-blue-testimonials: #0198bd;
 
-  --font-noto-serif-georgian: "Noto Serif Georgian", serif;
-  --font-oswald: "Oswald", sans-serif;
+  --font-noto-serif-georgian: 'Noto Serif Georgian', serif;
+  --font-oswald: 'Oswald', sans-serif;
   --font-georgia: Georgia;
+  --font-roboto: 'Roboto', sans-serif;
+
 }
 
 .sticky_nav_header {
@@ -68,7 +72,13 @@
   transition: width 0.3s ease-out;
 }
 
+.title_blue {
+  color: #337ab7 !important;
 
+}
+.title_blue:hover {
+  color: #23527c !important;
+}
 .general_links{
   text-decoration: none;
   color: var(--text-link);
