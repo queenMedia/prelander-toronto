@@ -15,37 +15,45 @@ import header1200b from "../../assets/images/header/header_1200-b.jpg"
 export const Header = () => {
   return (
     <header className="header_section">
-      <div className="header_container">
-        <div className="header_top">
-          <div className="header_top_container">
-            <div className="header_top_menu_1200">
-              <TelegramRedirect><img src={header1200} alt="" className="header_top_img"/></TelegramRedirect>
-            </div>
-            <div className="header_top_menu_1050">
-              <TelegramRedirect><img src={header1050} alt="" className="header_top_img"/></TelegramRedirect>
-            </div>
-            <div className="header_top_menu_900">
-              <TelegramRedirect><img src={header900} alt="" className="header_top_img"/></TelegramRedirect>
-            </div>
-            <div className="header_top_menu_650">
-              <TelegramRedirect><img src={header650} alt="" className="header_top_img"/></TelegramRedirect>
-            </div>
-            <div className="header_top_menu_450">
-              <TelegramRedirect><img src={header450} alt="" className="header_top_img"/></TelegramRedirect>
-            </div>
-          </div>
-        </div>
-        <div className="header_middle">
-          <div className="header_middle_container">
-            <TelegramRedirect><img src={header1200c} alt="" className="header_top_img"/></TelegramRedirect>
-          </div>
-        </div>
-        <div className="header_bottom">
-          <div className="header_bottom_container">
-            <TelegramRedirect><img src={header1200b} alt="" className="header_top_img"/></TelegramRedirect>
+      <div className="header_header_container">
+        <div className="header_header_top">
+          <ul className="header_header_list">
+            <li className="header_header_list_item">image</li>
+            <li className="header_header_list_item">DN</li>
+            <li className="header_header_list_item">TSF</li>
+            <li className="header_header_list_item">Dinheiro Vivo</li>
+            <li className="header_header_list_item">V Digital</li>
+            <li className="header_header_list_item">Plataforma</li>
+            <li className="header_header_list_item">O Jogo</li>
+            <li className="header_header_list_item">Motor 24</li>
+            <li className="header_header_list_item">Men's Health</li>
+            <li className="header_header_list_item">Women's Health</li>
+            <li className="header_header_list_item">Avasões</li>
+            <li className="header_header_list_item">Volta ao Mundo</li>
+          </ul>
+          <div className="header_header_top_button_group">
+            <button type="button" className="header_header_top_button_group_button">
+              TSF EM DIRETO
+            </button>
+            <button type="button" className="header_header_top_button_group_button">
+              CLASSIFICADOS
+            </button>
+            <button type="button" className="header_header_top_button_group_button">
+              ASSINAR O PREMIUM
+            </button>
           </div>
         </div>
       </div>
+      <TelegramRedirect>
+        <div className="header_container">
+          <div className="header_container_main">
+            <div className="header_container_main_top">
+              
+            </div>
+          </div>
+        </div>
+      </TelegramRedirect>
+      
     </header>
   );
 };

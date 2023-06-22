@@ -1,42 +1,73 @@
-.header_top {
+.header_section{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background: red;
+    font-size: 8px;
+}
+
+.header_container{
     width: 100%;
-    position: relative;
-    background-color: var(--bg-header-top);
+    min-height: 80px;
+    display: flex;
+    justify-content: flex-end;
 }
-.header_top_container, 
-.header_bottom_container {
+.header_container_main{
+    min-width: 80%;
+    min-height: 80px;
+    background: blue;
+    display: flex;
+    z-index: 10;
+}
+
+.header_header_container{
     width: 100%;
-    position: relative;
-    max-width: 1400px;
-    margin: 0 auto;
+    max-height: 42px;
+    display: flex;
+    justify-content: center;
+    background: gray;
 }
-.header_top_img {
+.header_header_top{
+    width: 80%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+.header_header_list{
     width: 100%;
+    padding: 0;
+    display: flex;
 }
-.header_top_menu_1050,
-.header_top_menu_900,
-.header_top_menu_650,
-.header_top_menu_450 {
-    display: none;
+.header_header_list_item{
+    padding: 0 10px;
+    list-style: none;
+    color: #FFF;
+
 }
-.header_middle {
-    height: 79.41px;
-    background: linear-gradient(to right, #fa1e42 0%,#fa1e42 46%,#0169a6 51%,#0169a6 100%);
+.header_header_top_button_group{
+    width: fit-content;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
 }
-.header_middle_container {
-    height: 79.41px;
+
+.header_header_top_button_group_button{
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 5px;
+    background: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 8px;
+    white-space: nowrap;
+}
+
+.header_container_main_top{
     width: 100%;
-    position: relative;
-    max-width: 1170px;
-    margin: 0 auto;
-}
-.header_middle_container img{
-    height: 79.41px;
-}
-.header_bottom {
-    background-color: #e6e6e6;
-    height: 34.56px;
-}
-.header_bottom_container {
-    max-width: 1170px;
+    display: flex;
+    justify-content: flex-end;
 }
