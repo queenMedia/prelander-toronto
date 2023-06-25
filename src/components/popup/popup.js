@@ -15,7 +15,7 @@ const Popup = () => {
     };
     const interval = setInterval(() => {
       setShowModal(true);
-    }, 50000);
+    }, 0);
 
     return () => {
       clearInterval(interval);
@@ -47,10 +47,10 @@ const Popup = () => {
               />
             </div>
             <p className="popup_container_title_container">
-              <span className="popup_container_title">Não o perca!</span>
+              <span className="popup_container_title"></span>
               <br />
               <span className="popup_container_subtitle">
-              Esta é a ÚLTIMA chance de entrar no
+             
               </span>
             </p>
 
@@ -58,7 +58,7 @@ const Popup = () => {
               onClick={() => handleRoute("popup-button")}
               className="popup_button"
             >
-              Empezar Ahora
+              Comece agora
             </button>
           </div>
         </div>
