@@ -9,7 +9,7 @@ export const OFFER_NAME = "The Crypto Genius";
 export const MODAL = FORMULA;
 export const SUBTITLE_FIRST_LINE = `Slovenski državljani že kopičijo milijone evrov od doma z uporabo te "vrzeli bogastva" - ampak je to zakonito?`;
 export const SUBTITLE_SECOND_LINE = `est-ce légitime?`;
-export const FIRST_PARAGRAPH = `Le Premier ministre luxembourgeois, ${CHARACTER}, s'est fait un nom en tant que franc-parler impétueux qui ne craint pas d'être honnête à propos de comment il gagne son argent.`;
+export const FIRST_PARAGRAPH = `${CHARACTER}, conhecido como apresentador de televisão e jornalista português. Manuel ficou famoso por não se preocupar em ser honesto sobre como ganha dinheiro.`;
 export const LOGO = LEQUOTIDIEN;
 export const PAGE = "torontoOffer.com";
 

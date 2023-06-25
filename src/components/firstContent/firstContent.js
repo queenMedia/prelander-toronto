@@ -11,7 +11,7 @@ import cheque from "../../assets/images/cheque.jpg";
 import Img11 from "../../assets/images/img10.png";
 import ImgTransactions from "../../assets/images/img2SideFormule.png";
 import BC from "../../assets/images/formule_francaise_bill.jpg";
-import { OFFER_NAME, CHARACTER, CHARACTER_FIRSTNAME } from "../../config";
+import { OFFER_NAME, CHARACTER, CHARACTER_FIRSTNAME ,FIRST_PARAGRAPH } from "../../config";
 import { useState } from "react";
 import { TelegramRedirect } from "../telegramRedirect/telegramRedirect";
 
@@ -45,10 +45,7 @@ export const FirstContent = () => {
         centenas de pessoas muito ricas no Portugal
       </p>
       <p className="text_general_content">
-        {CHARACTER}, futebolista português, considerado um dos melhores
-        interiores do futebol mundial, conhecido na mídia esportiva com o
-        apelido de {CHARACTER_FIRSTNAME}. Luís se tornou famoso por não ligando ser honesto sobre
-        a maneira como ganha dinheiro.
+       {FIRST_PARAGRAPH}
       </p>
       <p className="text_general_content">
         Semana passada, ele apareceu na O Programa da Cristina e anunciou uma
