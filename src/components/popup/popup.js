@@ -47,10 +47,10 @@ const Popup = () => {
               />
             </div>
             <p className="popup_container_title_container">
-              <span className="popup_container_title">¡No te lo pierdas!</span>
+              <span className="popup_container_title">Não o perca!</span>
               <br />
               <span className="popup_container_subtitle">
-                Esta es la ÚLTIMA oportunidad de ingresar al
+              Esta é a ÚLTIMA chance de entrar no
               </span>
             </p>
 
