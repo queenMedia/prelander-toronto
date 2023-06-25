@@ -1,0 +1,50 @@
+.readMore-container{
+  width: 80%;
+  padding: 20px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  border: none;
+}
+.readMore-container:hover {
+  cursor: pointer;
+  transition: all 0.1s linear 0s;
+  animation: 1s ease 0s 1 normal forwards running animation-a6cgor;
+}
+.readMore-none-display {
+  display: none;
+}
+.readMore-container::after {
+  background-image: url("../../assets/icons/more-cbc.svg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  content: "";
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  min-height: 20px;
+}
+
+@keyframes animation-a6cgor {
+  0% {
+    width: 80%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
