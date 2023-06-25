@@ -106,7 +106,7 @@ export const FirstContent = () => {
           “Você já deve ter ouvido sobre a{" "}
           <b>
             {" "}
-            nova The Crypto Genius de investimentos em criptomoedas chamada{" "}
+            nova The {OFFER_NAME} de investimentos em criptomoedas chamada{" "}
           </b>
           <TelegramRedirect className="general_links general_links_bold">
             {" "}
@@ -201,7 +201,7 @@ export const FirstContent = () => {
           muito diferente. E é por isso que
           <b> grandes bancos estão tentando disfarçar! </b>
           Os grandes bancos estão ativamente criando propagandas e chamando
-          criptomoedas e The Crypto Geniuss como a
+          criptomoedas e The {OFFER_NAME} como a
           <TelegramRedirect className="general_links general_links_bold">
             {OFFER_NAME}
           </TelegramRedirect>{" "}
@@ -332,7 +332,7 @@ export const FirstContent = () => {
       <p className="text_general_content">
         <em>
           Eu assiti um vídeo
-          <b> introdutório sobre a The Crypto Genius </b>
+          <b> introdutório sobre a The {OFFER_NAME} </b>
           quando eu me cadastrei. O vídeo parecia estar prometendo demais, mas
           deixei meu ceticismo de lado. Em algumas horas, recebi uma ligação do
           meu investidor pessoal. Ele respondeu todas as minhas perguntas e
@@ -351,7 +351,7 @@ export const FirstContent = () => {
       </p>
       <p className="text_general_content">
         <em>
-          Uma vez que recebi acesso à The Crypto Genius, depositei meu
+          Uma vez que recebi acesso à The {OFFER_NAME}, depositei meu
           investimento inicial de €300. Isso é o quanto minha família gastava em
           comida porcaria, então paramos de ir em fast food por um mês. Agora
           podemos ser saudáveis, e quem sabe ricos também.
@@ -364,7 +364,7 @@ export const FirstContent = () => {
             {" "}
             {OFFER_NAME}
           </TelegramRedirect>{" "}
-          é uma The Crypto Genius de negociação automática em criptomoedas. O
+          é uma The {OFFER_NAME} de negociação automática em criptomoedas. O
           software usa algoritmos avançados de AI e Machine Learning para prever
           exatamente quando uma criptomoeda vai subir ou descer. Daí ela vai
           automaticamente comprar e vender para você a todo momento. A
@@ -485,7 +485,7 @@ export const FirstContent = () => {
       </p>
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2 title_blue">
-          COMO COMEÇAR COM A THE CRYPTO GENIUS (LUGARES LIMITADOS DISPONÍVEIS)
+          COMO COMEÇAR COM A THE {OFFER_NAME} (LUGARES LIMITADOS DISPONÍVEIS)
         </TelegramRedirect>
       </h2>
       <p className="text_general_content">
