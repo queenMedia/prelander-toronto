@@ -21,7 +21,6 @@ import profile20 from "../../assets/images/fb-comments/comment20.jpg";
 import profile21 from "../../assets/images/fb-comments/comment21.jpg";
 import profile22 from "../../assets/images/fb-comments/comment22.jpg";
 import profile23 from "../../assets/images/fb-comments/comment23.jpg";
-import { OFFER_NAME } from "../../config";
 
 export const commentsData = [
   {

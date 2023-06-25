@@ -12,7 +12,7 @@ export const TestimonialCard = ({currentTestimonial}) => {
                 <img src={currentTestimonial.img} alt="" className="testimonial-card-image"/>
             </TelegramRedirect>
             <p className="testimonial-card-description">
-                <i dangerouslySetInnerHTML={{__html: currentTestimonial.description}}></i>
+                <i dangerouslySetInnerHTML={{__html: currentTestimonial.description.replace()}}></i>
             </p>
             <p className="testimonial-card-description-2">
                 <strong>

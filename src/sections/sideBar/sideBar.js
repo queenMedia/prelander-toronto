@@ -3,11 +3,11 @@ import { Steps } from "../steps/steps";
 import "./sideBar.css";
 import "./sideBar.responsive.css";
 
-export const SideBar = () => {
+export const SideBar = ({config}) => {
   return (
     <section className="side_bar">
-        <Testimonials />
-        <Steps />
+        <Testimonials config={config} />
+        <Steps config={config}/>
     </section>
   );
 };
