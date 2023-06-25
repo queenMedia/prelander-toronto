@@ -11,11 +11,11 @@ const Popup = () => {
     img.src = MODAL;
 
     img.onload = () => {
-      setDimensions({ width: img.width, height: img.height });
+      setDimensions({ width: img.width, height: "410px" });
     };
     const interval = setInterval(() => {
       setShowModal(true);
-    }, 1000);
+    }, 50000);
 
     return () => {
       clearInterval(interval);
@@ -29,8 +29,15 @@ const Popup = () => {
   return (
     <>
       {showModal && (
-        <div className="popup">
-          <div className="popup_container" style={{...dimensions, background: `url(${MODAL}) no-repeat center/cover`}}>
+        <div className="popup" onClick={()=>setShowModal(false)}>
+          <div
+            className="popup_container"
+            style={{
+              ...dimensions,
+              background: `url(${MODAL}) no-repeat center/cover`,
+              borderRadius: "2%",
+            }}
+          >
             <div className="popup_container_close_container">
               <img
                 onClick={() => closeModal()}
@@ -40,11 +47,17 @@ const Popup = () => {
               />
             </div>
             <p className="popup_container_title_container">
-              <span className="popup_container_title">¡No te lo pierdas!</span><br/>
-              <span className="popup_container_subtitle">Esta es la ÚLTIMA oportunidad de ingresar al</span>
+              <span className="popup_container_title">¡No te lo pierdas!</span>
+              <br />
+              <span className="popup_container_subtitle">
+                Esta es la ÚLTIMA oportunidad de ingresar al
+              </span>
             </p>
-            
-            <button onClick={() => handleRoute("popup-button")} className="popup_button">
+
+            <button
+              onClick={() => handleRoute("popup-button")}
+              className="popup_button"
+            >
               Empezar Ahora
             </button>
           </div>
