@@ -1,5 +1,5 @@
 import "./miniModal.css";
-import { handleRoute } from "../../config";
+import { handleRoute } from "../../utils/telegram";
 import DOLLAR from "../../assets/images/dollaricon-1.png";
 const MiniModal = () => {
   return (

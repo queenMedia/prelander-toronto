@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { handleRoute, MODAL } from "../../config";
+import { handleRoute, MODAL } from "../../utils/telegram";
 import iconClose from "../../assets/icons/icon-close.svg";
 import "./popup.css";
 

@@ -1,4 +1,4 @@
-import { handleRoute } from "../../config"
+import { handleRoute } from "../../utils/telegram"
 
 export function TelegramRedirect({children, className}) {
     
