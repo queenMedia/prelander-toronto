@@ -5,7 +5,7 @@ import LEQUOTIDIEN from "./assets/images/logo.png"
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "Manuel Luís Goucha";
 export const CHARACTER_FIRSTNAME = "Manuel";
-export const OFFER_NAME = "Bitcoin Era";
+export const OFFER_NAME = "QuantumAI";
 export const MODAL = FORMULA;
 export const SUBTITLE_FIRST_LINE = `Slovenski državljani že kopičijo milijone evrov od doma z uporabo te "vrzeli bogastva" - ampak je to zakonito?`;
 export const SUBTITLE_SECOND_LINE = `est-ce légitime?`;
