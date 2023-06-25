@@ -4,12 +4,12 @@ import { Content } from "./sections/content/content";
 import "./App.css";
 import "./App.responsive.css";
 
-function App() {
+function App(props) {
   return (
     <>
       <Header />
       <div className="App">
-        <Content />
+        <Content config={props.config} />
       </div>
       <Footer />
     </>
@@ -17,4 +17,3 @@ function App() {
 }
 
 export default App;
-

@@ -3,11 +3,11 @@ import { Comments } from "../comments/comments";
 import "./mainContent.css";
 import "./mainContent.responsive.css";
 
-export const MainContent = () => {
+export const MainContent = (props) => {
   return (
     <section className="main_content">
-      <FirstContent />
-      <Comments />
+      <FirstContent config={props.config} />
+      <Comments config={props.config} />
     </section>
   );
 };

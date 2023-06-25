@@ -11,20 +11,19 @@ import cheque from "../../assets/images/cheque.jpg";
 import Img11 from "../../assets/images/img10.png";
 import ImgTransactions from "../../assets/images/img2SideFormule.png";
 import BC from "../../assets/images/formule_francaise_bill.jpg";
-import { OFFER_NAME, CHARACTER, CHARACTER_FIRSTNAME ,FIRST_PARAGRAPH } from "../../config";
 import { useState } from "react";
 import { TelegramRedirect } from "../telegramRedirect/telegramRedirect";
 
 import "./firstContent.css";
 import "./firstContent.responsive.css";
 
-export const FirstContent = () => {
+export const FirstContent = ({config}) => {
   const [displayReadMore, setDisplayReadMore] = useState(true);
   return (
     <article className="first_content">
       <h1 className="first_content_title">
         <TelegramRedirect className="first_content_title_link">
-          <u>INFORME ESPECIAL:</u> Últimos Investimentos de {CHARACTER} deixam
+          <u>INFORME ESPECIAL:</u> Últimos Investimentos de {config.CHARACTER} deixam
           Experts Boquiabertos e Grandes Bancos Assustados
         </TelegramRedirect>
       </h1>
@@ -41,29 +40,29 @@ export const FirstContent = () => {
         <img src={Img1} alt="Img1" className="image_responsive" />
       </TelegramRedirect>
       <p className="text_image_below">
-        {CHARACTER} aparece com novo investimento secreto que está deixando
+        {config.CHARACTER} aparece com novo investimento secreto que está deixando
         centenas de pessoas muito ricas no Portugal
       </p>
       <p className="text_general_content">
-       {FIRST_PARAGRAPH}
+       {config.FIRST_PARAGRAPH}
       </p>
       <p className="text_general_content">
         Semana passada, ele apareceu na O Programa da Cristina e anunciou uma
         nova “brecha de riqueza” que ele diz que pode
         <b> transformar qualquer um em um milionário em 3-4 meses.</b>
-        {CHARACTER_FIRSTNAME} estimula que todos os Português entrem nessa incrível oportunidade
+        {config.CHARACTER_FIRSTNAME} estimula que todos os Português entrem nessa incrível oportunidade
         antes que grandes bancos acabem com isso de uma vez por todas.
       </p>
       <p className="text_general_content">
         E minutos depois de sua entrevista, o Banco de Portugal pediu para que a
-        entrevista com o {CHARACTER_FIRSTNAME} não fosse ao ar – mas já era tarde demais.
+        entrevista com o {config.CHARACTER_FIRSTNAME} não fosse ao ar – mas já era tarde demais.
       </p>
       <p className="text_general_content">
         <b>Aqui está o que aconteceu:</b>
       </p>
       <p className="text_general_content">
         Cristina Ferreira, apresentadora da O Programa da Cristina, convidou
-        {CHARACTER_FIRSTNAME} ao show para que ele compartilhasse dicas de como construir riqueza
+        {config.CHARACTER_FIRSTNAME} ao show para que ele compartilhasse dicas de como construir riqueza
         e o empreendedor soltou a bomba:
       </p>
       <p className="text_general_content">
@@ -74,7 +73,7 @@ export const FirstContent = () => {
           <b> programa que negocia criptomoedas automaticamente chamado </b>
           <TelegramRedirect className="general_links general_links_bold">
             {" "}
-            {OFFER_NAME}
+            {config.OFFER_NAME}
           </TelegramRedirect>
           . É a melhor oportunidade que já vi em toda minha vida que pode
           construir fortunas de maneira rápida. Espero que todos olhem isso
@@ -82,7 +81,7 @@ export const FirstContent = () => {
         </em>{" "}
       </p>
       <p className="text_general_content">
-        Cristina Ferreira ficou chocada quando {CHARACTER_FIRSTNAME} puxou seu telefone e mostrou
+        Cristina Ferreira ficou chocada quando {config.CHARACTER_FIRSTNAME} puxou seu telefone e mostrou
         ao telespectadores quanto dinheiro ele estava fazendo através desse
         programa gerador de dinheiro que todos no Portugal estavam cochichando.
       </p>
@@ -92,13 +91,13 @@ export const FirstContent = () => {
         </TelegramRedirect>
       </div>
       <p className="text_general_content">
-        O segmento ficou sem tempo antes que {CHARACTER_FIRSTNAME} pudesse elaborar mais, então
+        O segmento ficou sem tempo antes que {config.CHARACTER_FIRSTNAME} pudesse elaborar mais, então
         conseguimos uma entrevista com o próprio para aprender mais sobre essa
         oportunidade controversa.
       </p>
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2">
-          ENTREVISTA EXCLUSIVA COM {CHARACTER.toUpperCase()}
+          ENTREVISTA EXCLUSIVA COM {config.CHARACTER.toUpperCase()}
         </TelegramRedirect>
       </h2>
       <p className="text_general_content">
@@ -106,18 +105,18 @@ export const FirstContent = () => {
           “Você já deve ter ouvido sobre a{" "}
           <b>
             {" "}
-            nova The {OFFER_NAME} de investimentos em criptomoedas chamada{" "}
+            nova The {config.OFFER_NAME} de investimentos em criptomoedas chamada{" "}
           </b>
           <TelegramRedirect className="general_links general_links_bold">
             {" "}
-            {OFFER_NAME}{" "}
+            {config.OFFER_NAME}{" "}
           </TelegramRedirect>{" "}
           que está ajudando pessoas normais na Europa, Austrália, Ásia e América
           a construírem fortunas de um dia para outro. Você pode estar cético
           porque parece bom demais para ser verdade.”
         </em>
       </p>
-      <p className="text_general_content">{CHARACTER} continua:</p>
+      <p className="text_general_content">{config.CHARACTER} continua:</p>
       <p className="text_general_content">
         <em>
           “Eu entendo, já que pensava a mesma coisa quando um amigo meu de
@@ -139,7 +138,7 @@ export const FirstContent = () => {
       <img src={Img3} alt="Img3" className="image_responsive" />
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2 title_blue">
-          O QUE É A THE {OFFER_NAME.toUpperCase()} EXATAMENTE E COMO ELA
+          O QUE É A THE {config.OFFER_NAME.toUpperCase()} EXATAMENTE E COMO ELA
           FUNCIONA?
         </TelegramRedirect>
       </h2>
@@ -147,7 +146,7 @@ export const FirstContent = () => {
         <b>
           A ideia por trás da{" "}
           <TelegramRedirect className="general_links general_links_bold">
-            {OFFER_NAME}
+            {config.OFFER_NAME}
           </TelegramRedirect>{" "}
           é bem direta:
         </b>{" "}
@@ -169,7 +168,7 @@ export const FirstContent = () => {
       <p className="text_general_content">
         <b>A </b>
         <TelegramRedirect className="general_links general_links_bold">
-          {OFFER_NAME}
+          {config.OFFER_NAME}
         </TelegramRedirect>{" "}
         te permite lucrar de todas essas criptomoedas, mesmo em um mercado em
         queda. Ela usa Inteligência Artificial (IA) para lidar automaticamente
@@ -185,7 +184,7 @@ export const FirstContent = () => {
           </b>
         </TelegramRedirect>
       </h2>
-      <p>{CHARACTER} continua,</p>
+      <p>{config.CHARACTER} continua,</p>
       <p className="text_general_content">
         <em>
           “Estamos passando por tempos econômicos difíceis, e essa é a solução
@@ -201,9 +200,9 @@ export const FirstContent = () => {
           muito diferente. E é por isso que
           <b> grandes bancos estão tentando disfarçar! </b>
           Os grandes bancos estão ativamente criando propagandas e chamando
-          criptomoedas e The {OFFER_NAME} como a
+          criptomoedas e The {config.OFFER_NAME} como a
           <TelegramRedirect className="general_links general_links_bold">
-            {OFFER_NAME}
+            {config.OFFER_NAME}
           </TelegramRedirect>{" "}
           de golpe. Por quê? Eles estão preocupados que seus grandes lucros
           encolham uma vez que seus clientes souberem como criar riqueza eles
@@ -243,10 +242,10 @@ export const FirstContent = () => {
           uma Ferrari 488 Pista usando o dinheiro que fez com a
           <TelegramRedirect className="general_links general_links_bold">
             {" "}
-            {OFFER_NAME}
+            {config.OFFER_NAME}
           </TelegramRedirect>{" "}
           Essa
-          <TelegramRedirect className=" "> {OFFER_NAME}</TelegramRedirect>{" "}
+          <TelegramRedirect className=" "> {config.OFFER_NAME}</TelegramRedirect>{" "}
           realmente está transformando as vidas de todos no mundo um pouco
           melhor.”
         </em>
@@ -260,23 +259,23 @@ export const FirstContent = () => {
         Rodrigo Lopes usou os lucros que ganhou da{" "}
         <TelegramRedirect className="general_links general_links_bold">
           {" "}
-          {OFFER_NAME}
+          {config.OFFER_NAME}
         </TelegramRedirect>{" "}
         para comprar o carro dos sonhos de seu irmãozinho. Que maneira
         inspiradora de se usar sua riqueza!
       </p>
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2 title_blue">
-          A THE {OFFER_NAME.toUpperCase()} REALMENTE FUNCIONA? NÓS TESTAMOS NÓS
+          A THE {config.OFFER_NAME.toUpperCase()} REALMENTE FUNCIONA? NÓS TESTAMOS NÓS
           MESMOS
         </TelegramRedirect>
       </h2>
       <p className="text_general_content">
         Nossos editores mais sêniores não nos deixariam publicar a entrevista
-        com {CHARACTER_FIRSTNAME} {CHARACTER_FIRSTNAME} até que tivesse verificado que a
+        com {config.CHARACTER_FIRSTNAME} {config.CHARACTER_FIRSTNAME} até que tivesse verificado que a
         <TelegramRedirect className="general_links general_links_bold">
           {" "}
-          {OFFER_NAME}
+          {config.OFFER_NAME}
         </TelegramRedirect>{" "}
         é uma oportunidade legítima de se fazer dinheiro. Nossa liderança
         corporativa não queria que lançássemos qualquer informação que pudesse
@@ -287,14 +286,14 @@ export const FirstContent = () => {
         Então nosso time editorial testou{" "}
         <TelegramRedirect className="general_links general_links_bold">
           {" "}
-          {OFFER_NAME}
+          {config.OFFER_NAME}
         </TelegramRedirect>{" "}
-        para ter certeza de que realmente funcionasse como o {CHARACTER_FIRSTNAME} descreveu. Um
+        para ter certeza de que realmente funcionasse como o {config.CHARACTER_FIRSTNAME} descreveu. Um
         de nossos editores online, Gustavo Galvota, se voluntariou para arriscar
         seu próprio dinheiro e testar a{" "}
         <TelegramRedirect className="general_links general_links_bold">
           {" "}
-          {OFFER_NAME}
+          {config.OFFER_NAME}
         </TelegramRedirect>{" "}
       </p>
       <p className="text_general_content">
@@ -313,7 +312,7 @@ export const FirstContent = () => {
         esperava que a{" "}
         <TelegramRedirect className="general_links general_links_bold">
           {" "}
-          {OFFER_NAME}
+          {config.OFFER_NAME}
         </TelegramRedirect>{" "}
         pudesse aliviar sua pressão financeira, então decidiu testar o sistema e
         relatar os resultados
@@ -323,7 +322,7 @@ export const FirstContent = () => {
       </p>
       <p className="text_general_content">
         <em>
-          “A primeira vez que ouvi a entrevista com {CHARACTER_FIRSTNAME}, achava que ele
+          “A primeira vez que ouvi a entrevista com {config.CHARACTER_FIRSTNAME}, achava que ele
           estivesse brincando. Fazer dinheiro de casa é apenas um sonho. Eu
           decidi tentar de qualquer forma dado minhas circunstâncias financeiras
           – e para o bem do bom jornalismo.
@@ -332,7 +331,7 @@ export const FirstContent = () => {
       <p className="text_general_content">
         <em>
           Eu assiti um vídeo
-          <b> introdutório sobre a The {OFFER_NAME} </b>
+          <b> introdutório sobre a The {config.OFFER_NAME} </b>
           quando eu me cadastrei. O vídeo parecia estar prometendo demais, mas
           deixei meu ceticismo de lado. Em algumas horas, recebi uma ligação do
           meu investidor pessoal. Ele respondeu todas as minhas perguntas e
@@ -351,7 +350,7 @@ export const FirstContent = () => {
       </p>
       <p className="text_general_content">
         <em>
-          Uma vez que recebi acesso à The {OFFER_NAME}, depositei meu
+          Uma vez que recebi acesso à The {config.OFFER_NAME}, depositei meu
           investimento inicial de €300. Isso é o quanto minha família gastava em
           comida porcaria, então paramos de ir em fast food por um mês. Agora
           podemos ser saudáveis, e quem sabe ricos também.
@@ -362,9 +361,9 @@ export const FirstContent = () => {
           O sistema da{" "}
           <TelegramRedirect className="general_links general_links_bold">
             {" "}
-            {OFFER_NAME}
+            {config.OFFER_NAME}
           </TelegramRedirect>{" "}
-          é uma The {OFFER_NAME} de negociação automática em criptomoedas. O
+          é uma The {config.OFFER_NAME} de negociação automática em criptomoedas. O
           software usa algoritmos avançados de AI e Machine Learning para prever
           exatamente quando uma criptomoeda vai subir ou descer. Daí ela vai
           automaticamente comprar e vender para você a todo momento. A
@@ -421,7 +420,7 @@ export const FirstContent = () => {
           pela primeira semana usando a
           <TelegramRedirect className="general_links ">
             {" "}
-            {OFFER_NAME}{" "}
+            {config.OFFER_NAME}{" "}
           </TelegramRedirect>
         </i>
       </center>
@@ -435,7 +434,7 @@ export const FirstContent = () => {
           à
           <TelegramRedirect className="general_links ">
             {" "}
-            {OFFER_NAME}
+            {config.OFFER_NAME}
             {". "}
           </TelegramRedirect>
           Agora, o dinheiro é depositado na conta do meu banco a cada poucos
@@ -464,12 +463,12 @@ export const FirstContent = () => {
       </p>
       <p className="text_general_content">
         <em>
-          TIsso não teria sido possível sem a generosidade do Sr. {CHARACTER_FIRSTNAME} por
+          TIsso não teria sido possível sem a generosidade do Sr. {config.CHARACTER_FIRSTNAME} por
           compartilhar seu segredo ao vivo na televisão. E estou feliz de ter
           arriscado dinheiro na
           <TelegramRedirect className="general_links ">
             {" "}
-            {OFFER_NAME}
+            {config.OFFER_NAME}
             {". "}
           </TelegramRedirect>
           Minha esposa está mais feliz do que nunca e minhas filhas cheias de
@@ -485,7 +484,7 @@ export const FirstContent = () => {
       </p>
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2 title_blue">
-          COMO COMEÇAR COM A THE {OFFER_NAME} (LUGARES LIMITADOS DISPONÍVEIS)
+          COMO COMEÇAR COM A THE {config.OFFER_NAME} (LUGARES LIMITADOS DISPONÍVEIS)
         </TelegramRedirect>
       </h2>
       <p className="text_general_content">
@@ -515,7 +514,7 @@ export const FirstContent = () => {
         A primeira coisa que você vê é um vídeo mostrando o poder da
         <TelegramRedirect className="general_links ">
           {" "}
-          {OFFER_NAME}
+          {config.OFFER_NAME}
           {". "}
         </TelegramRedirect>
         A propaganda é grande e direta ao ponto, mas é um produto Americano e é
@@ -531,7 +530,7 @@ export const FirstContent = () => {
           em qualquer momento)
           <TelegramRedirect className="general_links ">
             {" "}
-            {OFFER_NAME}
+            {config.OFFER_NAME}
             {". "}
           </TelegramRedirect>
         </em>
@@ -599,11 +598,11 @@ export const FirstContent = () => {
           “Todos querem ser ricos, mas ninguém sabe como. Bem,
           <TelegramRedirect className="general_links ">
             {" "}
-            {OFFER_NAME}
+            {config.OFFER_NAME}
             {". "}
           </TelegramRedirect>
           é a oportunidade de uma vida para você ficar rico está aqui. Ela NÃO
-          vai ficar aqui por muito tempo, então não perca.” – <b> {CHARACTER} </b>
+          vai ficar aqui por muito tempo, então não perca.” – <b> {config.CHARACTER} </b>
         </em>
       </p>
 
@@ -618,7 +617,7 @@ export const FirstContent = () => {
         preenchidas para cidadãos Português.
         <TelegramRedirect className="general_links ">
           {" "}
-          {OFFER_NAME}
+          {config.OFFER_NAME}
           {". "}
         </TelegramRedirect>
         aceita apenas uma quantidade limitada de usuários para que os lucros se

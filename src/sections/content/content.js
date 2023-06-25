@@ -7,8 +7,8 @@ import "./content.responsive.css";
 export const Content = (props) => {
   return (
     <main className="content">
-        <MainContent />
-        <SideBar />
+      <MainContent config={props.config} />
+      <SideBar config={props.config} />
     </main>
   );
 };
