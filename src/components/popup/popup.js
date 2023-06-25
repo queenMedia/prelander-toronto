@@ -58,7 +58,7 @@ const Popup = () => {
               onClick={() => handleRoute("popup-button")}
               className="popup_button"
             >
-              Empezar Ahora
+             Comece agora
             </button>
           </div>
         </div>
