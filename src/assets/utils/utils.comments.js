@@ -89,7 +89,7 @@ export const commentsData = [
   },
   {
     name: "Carla Pereira",
-    text: `Obrigada pela informação, acabei de começar a usar a The ${OFFER_NAME}.`,
+    text: `Obrigada pela informação, acabei de começar a usar a The OFFER_NAME.`,
     img: profile10,
     hours: 1,
     likes: 12,
@@ -167,7 +167,7 @@ export const commentsData = [
   },
   {
     name: "Samuel Bianchi",
-    text: `Experimentei a The ${OFFER_NAME} algum tempo atrás e funciona bem.`,
+    text: `Experimentei a The OFFER_NAME algum tempo atrás e funciona bem.`,
     img: profile21,
     hours: 8,
     likes: 61,

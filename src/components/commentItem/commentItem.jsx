@@ -3,7 +3,7 @@ import "./commentItem.css"
 
 import { TelegramRedirect } from "../../components/telegramRedirect/telegramRedirect";
 
-export function CommentItem({currentComment}) {
+export function CommentItem({currentComment ,offerName}) {
     return(
         <div className="comment-item">
             <TelegramRedirect>
@@ -12,7 +12,7 @@ export function CommentItem({currentComment}) {
             <div className="comment-content">
                 <div className="comment-text">
                     <TelegramRedirect className="fb-comment-name">{currentComment.name} </TelegramRedirect> 
-                    {currentComment.text}  
+                    {currentComment.text.replace("OFFER_NAME" , offerName)}  
                 </div>
                 <div className="comment-likes">
                     <TelegramRedirect>Responder .</TelegramRedirect>

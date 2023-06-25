@@ -5,7 +5,8 @@ import { commentsData } from "../../assets/utils/utils.comments"
 import { CommentItem } from "../../components/commentItem/commentItem"
 import { TelegramRedirect } from "../../components/telegramRedirect/telegramRedirect";
 
-export function Comments() {
+export function Comments({config}) {
+    console.log(config)
     return(
         <section className="comments-section">
             <div className="comments-content">
@@ -15,7 +16,9 @@ export function Comments() {
                         return (
                             <CommentItem 
                                 key={index} 
-                                currentComment={item} />
+                                currentComment={item} 
+                                offerName={config.OFFER_NAME}
+                                />
                         )
                     })}
                 </div>
