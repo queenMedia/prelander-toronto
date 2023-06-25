@@ -8,7 +8,7 @@ import { Cristina_BitGPT } from "./config";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/jn-cristina-bitgpt",
     element: <App config={Cristina_BitGPT} />,
   },
 ]);
