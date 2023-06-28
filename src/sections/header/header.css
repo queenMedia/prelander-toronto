@@ -35,7 +35,7 @@
 }
 .header_list_rigth_item_hash_tag{
     text-decoration: none;
-    color: var(--bg-blue-dark);
+    color: var(--text-black);
 }
 .header_list_rigth_item_link{
     text-decoration: none;
