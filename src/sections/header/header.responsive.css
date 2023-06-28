@@ -1,44 +1,26 @@
-@media (max-width: 1200px){
-    
-}
-@media (max-width: 1050px){
-    .header_top_menu_1200, 
-    .header_middle,
-    .header_bottom {
-        display: none;
-    }
-    .header_top_menu_1050{
-        display: block;
-    }
-    .header_top {
-        background-color: transparent;
-    }
-}
-@media (max-width: 900px){
-    .header_top_menu_900{
-        display: block;
-    }
-    .header_top_menu_1050 {
+@media (max-width: 1128px){
+    .header_list_rigth_item_hash_tag_container{
         display: none;
     }
 }
-@media (max-width: 650px){
-    .header_top_menu_650{
-        display: block;
-    }
-    .header_top_menu_1050,
-    .header_top_menu_900 {
+@media (max-width: 802px){
+    .header_list_rigth_item_head_phones_container{
         display: none;
-    }
-}
-@media (max-width: 450px){
-    .header_top_menu_450{
-        display: block;
-    }
-    .header_top_menu_1050,
-    .header_top_menu_900,
-    .header_top_menu_650 {
-        display: none;
-    }
-}
 
+    }
+}
+@media (max-width: 662px){
+    .header_list_rigth_item_news_paper_container{
+        display: none;
+    }
+}
+@media (max-width: 542px){
+    .header_list_rigth_item_icon_container{
+        display: none;
+    }
+}
+@media (max-width: 454px){
+    .header_list_left_item{
+        display: none;
+    }
+}

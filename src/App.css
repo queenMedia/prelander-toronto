@@ -13,6 +13,8 @@
   --text-light: #333333;
 
   --bg-image-user: url("./assets/icons/user-fill-icon.png");
+  --bg-image-headphones: url("./assets/icons/newHeader/head_phones.png");
+  --bg-image-news: url("./assets/icons/newHeader/news_paper.png");
   --bg-nav-header: #f1ebe4;
   --bg-header-top: #2c415c;
   
@@ -21,6 +23,10 @@
   --bg-secondary: #0f3e61;
   --bg-gray-line-nav: #383838;
   --bg-orange: #f18b06;
+  --bg-red-menu: #FA1E42;
+
+  --bg-blue-dark: #0169A6;
+  --bg-blue-light: #DEF0FC;
   
 
   --bg-white: #fff;
@@ -33,7 +39,7 @@
 
   --color-white: #fff;
   --color-gray: #dddfe2;
-  --color-gray-2: #90949c;
+  --color-gray-2: #DFDFDF;
   --color-gray-666: #666;
   --color-gray-ccc: #ccc;
   --color-gray-222: #222;
