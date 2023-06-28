@@ -12,6 +12,8 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 4px solid var(--color-gray-2);
+    text-decoration: none;
+    color: var(--bg-blue-dark);
 }
 .header_container_logo{
     min-width: 60px;
@@ -26,9 +28,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
 }
 .header_list_left_item_image{
     list-style: none;
+}
+.header_list_rigth_item_hash_tag{
+    text-decoration: none;
+    color: var(--bg-blue-dark);
+}
+.header_list_rigth_item_link{
+    text-decoration: none;
+    color: var(--bg-blue-dark);
+}
+.header_list_rigth_item_head_phones{
+    text-decoration: none;
+    color: var(--bg-blue-dark);
+
+}
+.header_list_rigth_item_news_paper{
+    text-decoration: none;
+    color: var(--text-white);
 }
 .header_list_left_item{
     padding: 10px 16px;

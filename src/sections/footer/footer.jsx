@@ -6,7 +6,7 @@ import Logo from "../../assets/images/new_logo_blue.jpeg";
 export const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer_container">
+      <a href="/" title="Footer" className="footer_container">
         <img src={Logo} alt="Logo" className="footer_container_logo" />
         <ul className="footer_list_rigth">
           <div className="footer_list_rigth_sub_container">
@@ -30,7 +30,7 @@ export const Footer = () => {
             Jornal de Notícias, 2023 © Todos os direitos reservados
           </li>
         </ul>
-      </div>
+      </a>
     </footer>
   );
 };

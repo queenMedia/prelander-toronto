@@ -12,53 +12,53 @@ import Mobile from "../../assets/icons/newHeader/mobile_menu.png";
 export const Header = () => {
   return (
     <header className="header_section">
-      <div className="header_container">
+      <a href="/" title="Header" className="header_container">
         <ul className="header_list_left">
           <li className="header_list_left_item_image">
-            <img src={Logo} className="header_container_logo" />
+            <img alt=""src={Logo} className="header_container_logo" />
           </li>
           <li className="header_list_left_item">
-            <a>ÚLTIMAS</a>
+            <a href="/" className="header_list_rigth_item_link" title="Header">ÚLTIMAS</a>
           </li>
           <li className="header_list_left_item">
-            <a>MAIS VISTAS</a>
+            <a href="/" className="header_list_rigth_item_link" title="Header">MAIS VISTAS</a>
             
           </li>
           <li className="header_list_left_item">
-            <a>JN DIRETO</a>
+            <a href="/" className="header_list_rigth_item_link" title="Header">JN DIRETO</a>
           </li>
         </ul>
         <ul className="header_list_rigth">
           <li className="header_list_rigth_item_hash_tag_container">
-            <a className="header_list_rigth_item_hash_tag">#guerra</a>
+            <a href="/" title="Header" className="header_list_rigth_item_hash_tag">#guerra</a>
           </li>
           <li className="header_list_rigth_item_hash_tag_container">
-            <a className="header_list_rigth_item_hash_tag">#ataque ao mercado</a>
+            <a href="/" title="Header" className="header_list_rigth_item_hash_tag">#ataque ao mercado</a>
           </li>
           <li className="header_list_rigth_item_hash_tag_container">
-            <a className="header_list_rigth_item_hash_tag">#wagner</a>
+            <a href="/" title="Header" className="header_list_rigth_item_hash_tag">#wagner</a>
             
           </li>
           <li className="header_list_rigth_item_head_phones_container">
-            <a className="header_list_rigth_item_head_phones">OUVIR TSF</a>    
+            <a href="/" title="Header" className="header_list_rigth_item_head_phones">OUVIR TSF</a>    
           </li>
           <li className="header_list_rigth_item_news_paper_container">
-            <a className="header_list_rigth_item_news_paper">LER JN</a>    
+            <a href="/" title="Header" className="header_list_rigth_item_news_paper">LER JN</a>    
           </li>
           <li className="header_list_rigth_item_icon_container">
-            <img className="header_list_rigth_item_icons" src={Search} />    
+            <img alt=""className="header_list_rigth_item_icons" src={Search} />    
           </li>
           <li className="header_list_rigth_item_icon_container">
-            <img className="header_list_rigth_item_icons" src={User} />    
+            <img alt=""className="header_list_rigth_item_icons" src={User} />    
           </li>
           <li className="header_list_rigth_item_icon_container">
-            <img className="header_list_rigth_item_icons" src={Moon} />    
+            <img alt=""className="header_list_rigth_item_icons" src={Moon} />    
           </li>
           <li className="header_list_rigth_item_mobile_menu">
-            <img className="header_list_rigth_item_icons" src={Mobile} />
+            <img alt=""className="header_list_rigth_item_icons" src={Mobile} />
           </li>
         </ul>
-      </div>
+      </a>
     </header>
   );
 };
