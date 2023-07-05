@@ -68,9 +68,7 @@ export const FirstContent = () => {
         entrevista com o {CHARACTER_FIRSTNAME} não fosse ao ar – mas já era
         tarde demais.
       </p>
-      <p className="text_general_content">
-        <b>Aqui está o que aconteceu:</b>
-      </p>
+      
       <p className="text_general_content">
         Cristina Ferreira, apresentadora da O Programa da Cristina, convidou
         {CHARACTER_FIRSTNAME} ao show para que ele compartilhasse dicas de como
