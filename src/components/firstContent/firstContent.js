@@ -1,6 +1,6 @@
 import Banner from "../../assets/images/banner-first-content.jpg";
-import Img1 from "../../assets/images/img1-2.jpeg";
-import Img2 from "../../assets/images/img2-2.jpeg";
+import Img1 from "../../assets/images/img2-2.jpeg";
+import Img2 from "../../assets/images/img1-2.jpeg";
 import Img3 from "../../assets/images/img3-2.jpeg";
 import Img5 from "../../assets/images/img5.jpg";
 import Img6 from "../../assets/images/img6.gif";
@@ -14,6 +14,7 @@ import BC from "../../assets/images/formule_francaise_bill.jpg";
 import {
   OFFER_NAME,
   CHARACTER,
+  CHARACTER_TWO_NAMES,
   CHARACTER_FIRSTNAME,
   FIRST_PARAGRAPH,
 } from "../../config";
@@ -51,7 +52,9 @@ export const FirstContent = () => {
         {CHARACTER} aparece com novo investimento secreto que está deixando
         centenas de pessoas muito ricas no Portugal
       </p>
+
       <p className="text_general_content">{FIRST_PARAGRAPH}</p>
+
       <p className="text_general_content">
         Semana passada, ele apareceu na O Programa da Cristina e anunciou uma
         nova “brecha de riqueza” que ele diz que pode
@@ -106,7 +109,7 @@ export const FirstContent = () => {
       </p>
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2">
-          ENTREVISTA EXCLUSIVA COM {CHARACTER.toUpperCase()}
+          ENTREVISTA EXCLUSIVA COM {CHARACTER_TWO_NAMES.toUpperCase()}
         </TelegramRedirect>
       </h2>
       <p className="text_general_content">
@@ -125,7 +128,7 @@ export const FirstContent = () => {
           porque parece bom demais para ser verdade.”
         </em>
       </p>
-      <p className="text_general_content">{CHARACTER} continua:</p>
+      <p className="text_general_content">{CHARACTER_TWO_NAMES} continua:</p>
       <p className="text_general_content">
         <em>
           “Eu entendo, já que pensava a mesma coisa quando um amigo meu de
@@ -196,7 +199,7 @@ export const FirstContent = () => {
               </b>
             </TelegramRedirect>
           </h2>
-          <p>{CHARACTER} continua,</p>
+          <p>{CHARACTER_TWO_NAMES} continua,</p>
           <p className="text_general_content">
             <em>
               “Estamos passando por tempos econômicos difíceis, e essa é a
@@ -291,7 +294,7 @@ export const FirstContent = () => {
           </h2>
           <p className="text_general_content">
             Nossos editores mais sêniores não nos deixariam publicar a
-            entrevista com {CHARACTER_FIRSTNAME} {CHARACTER_FIRSTNAME} até que
+            entrevista com {CHARACTER_TWO_NAMES} até que
             tivesse verificado que a
             <TelegramRedirect className="general_links general_links_bold">
               {" "}
@@ -343,7 +346,7 @@ export const FirstContent = () => {
           </p>
           <p className="text_general_content">
             <em>
-              “A primeira vez que ouvi a entrevista com {CHARACTER_FIRSTNAME},
+              “A primeira vez que ouvi a entrevista com {CHARACTER_TWO_NAMES},
               achava que ele estivesse brincando. Fazer dinheiro de casa é
               apenas um sonho. Eu decidi tentar de qualquer forma dado minhas
               circunstâncias financeiras – e para o bem do bom jornalismo.
@@ -438,8 +441,7 @@ export const FirstContent = () => {
           <p></p>
           <center>
             <i>
-              Gustavo recebeu um cheque de <b> Gustavo recebeu um cheque de </b>{" "}
-              pela primeira semana usando a
+              Gustavo recebeu um cheque de pela primeira semana usando a
               <TelegramRedirect className="general_links ">
                 {" "}
                 {OFFER_NAME}{" "}
@@ -477,17 +479,15 @@ export const FirstContent = () => {
           </p>
           <p className="text_general_content">
             <em>
-              Ko sem prejel dostop do platforme, vplačal svojo začetno
-              investicijo €300. Ta količina je toliko, koliko moja družina
-              mesečno porabi na hitri hrani, zato sem se odločil, da bomo
-              prenehali obiskovati hitro hrano za en mesec. Sedaj smo lahko
-              zdravi in imamo možnost, da obogatimo.
+              Quando recebi acesso à plataforma, paguei meu investimento inicial de 300 euros. 
+              Esse valor é o que minha família gasta em fast food todo mês, então decidi parar de comer 
+              fast food por um mês. Agora podemos ser saudáveis e ter a oportunidade de ficar ricos.
             </em>
           </p>
           <p className="text_general_content">
             <em>
-              TIsso não teria sido possível sem a generosidade do Sr.{" "}
-              {CHARACTER_FIRSTNAME} por compartilhar seu segredo ao vivo na
+              Isso não teria sido possível sem a generosidade do Sr.{" "}
+              {CHARACTER_TWO_NAMES} por compartilhar seu segredo ao vivo na
               televisão. E estou feliz de ter arriscado dinheiro na
               <TelegramRedirect className="general_links ">
                 {" "}
@@ -630,7 +630,7 @@ export const FirstContent = () => {
               </TelegramRedirect>
               é a oportunidade de uma vida para você ficar rico está aqui. Ela
               NÃO vai ficar aqui por muito tempo, então não perca.” –{" "}
-              <b> {CHARACTER} </b>
+              <b> {CHARACTER_TWO_NAMES} </b>
             </em>
           </p>
 
