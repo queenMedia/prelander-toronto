@@ -1,12 +1,12 @@
 import axios from "axios";
-import FORMULA from "./assets/images/QuantumAI.jpg";
+import FORMULA from "./assets/images/BitcoinEra.png";
 import LEQUOTIDIEN from "./assets/images/logo.png"
 
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "André Claro Amaral Ventura";
 export const CHARACTER_TWO_NAMES = "André Ventura";
 export const CHARACTER_FIRSTNAME = "Andre";
-export const OFFER_NAME = "QuantumAI";
+export const OFFER_NAME = "BITCOIN ERA";
 export const MODAL = FORMULA;
 export const SUBTITLE_FIRST_LINE = `Slovenski državljani že kopičijo milijone evrov od doma z uporabo te "vrzeli bogastva" - ampak je to zakonito?`;
 export const SUBTITLE_SECOND_LINE = `est-ce légitime?`;
