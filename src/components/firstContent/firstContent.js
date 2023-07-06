@@ -1,5 +1,7 @@
 import Banner from "../../assets/images/banner-first-content.jpg";
 import Img1 from "../../assets/images/img2-2.jpeg";
+import Img1MAN from "../../assets/images/img1-man.jpeg";
+import Img1WOMAN from "../../assets/images/img1-woman.jpeg";
 import Img2 from "../../assets/images/img1-2.jpeg";
 import Img3 from "../../assets/images/img3-2.jpeg";
 import Img5 from "../../assets/images/img5.jpg";
@@ -45,9 +47,16 @@ export const FirstContent = () => {
       <TelegramRedirect>
         <img src={Banner} alt="banner" className="image_responsive" />
       </TelegramRedirect>
-      <TelegramRedirect>
-        <img src={Img1} alt="Img1" className="image_responsive" />
-      </TelegramRedirect>
+      
+      <div className="image_group">
+        <TelegramRedirect>
+          <img src={Img1MAN} alt="Img2" className="image_responsive" />
+        </TelegramRedirect>
+        <TelegramRedirect>
+          <img src={Img1WOMAN} alt="Img2" className="image_responsive" />
+        </TelegramRedirect>
+      </div>
+
       <p className="text_image_below">
         {CHARACTER} aparece com novo investimento secreto que está deixando
         centenas de pessoas muito ricas no Portugal
