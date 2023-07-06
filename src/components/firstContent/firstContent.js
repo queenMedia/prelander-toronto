@@ -216,7 +216,7 @@ export const FirstContent = () => {
               Os grandes bancos estão ativamente criando propagandas e chamando
               criptomoedas e The {OFFER_NAME} como a
               <TelegramRedirect className="general_links general_links_bold">
-                {OFFER_NAME}
+                {" "}{OFFER_NAME}
               </TelegramRedirect>{" "}
               de golpe. Por quê? Eles estão preocupados que seus grandes lucros
               encolham uma vez que seus clientes souberem como criar riqueza
