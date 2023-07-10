@@ -4,7 +4,7 @@ import iconClose from "../../assets/images/icon-close-black.svg";
 import "./popup.css";
 
 const Popup = () => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
   useEffect(() => {
     const img = new Image();
