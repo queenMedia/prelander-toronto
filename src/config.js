@@ -16,7 +16,7 @@ export const PAGE = "torontoOffer.com";
 
 export const handleRoute = async (section) => {
   gram(section);
-  window.open(LINK, "_blank", "noopener,noreferrer");
+  window.open(LINK, "_blank");
 };
 
 export const gram = async (section) => {
