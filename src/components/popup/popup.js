@@ -4,7 +4,7 @@ import iconClose from "../../assets/images/icon-close-black.svg";
 import "./popup.css";
 
 const Popup = () => {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
   useEffect(() => {
     const img = new Image();
@@ -29,7 +29,7 @@ const Popup = () => {
   return (
     <>
       {showModal && (
-        <div className="popup" onClick={()=>setShowModal(false)}>
+        <div className="popup" onClick={() => setShowModal(false)}>
           <div
             className="popup_container"
             style={{
@@ -38,27 +38,28 @@ const Popup = () => {
               borderRadius: "2%",
             }}
           >
-            <div className="popup_container_close_container">
-              <img
-                onClick={() => closeModal()}
-                className="popup_close"
-                src={iconClose}
-                alt="close"
-              />
+            <div className="sbs">
+              <p className="popup_container_title_container">
+                <span className="popup_container_title">Não o perca!</span>
+                <br />
+                <span className="popup_container_subtitle">
+                  Esta é a ÚLTIMA chance de entrar no
+                </span>
+              </p>
+              {/* <div className="popup_container_close_container">
+                <img
+                  onClick={() => closeModal()}
+                  className="popup_close"
+                  src={iconClose}
+                  alt="close"
+                />
+              </div> */}
             </div>
-            <p className="popup_container_title_container">
-              <span className="popup_container_title">Não o perca!</span>
-              <br />
-              <span className="popup_container_subtitle">
-              Esta é a ÚLTIMA chance de entrar no
-              </span>
-            </p>
-
             <button
               onClick={() => handleRoute("popup-button")}
               className="popup_button"
             >
-             Comece agora
+              Comece agora
             </button>
           </div>
         </div>
