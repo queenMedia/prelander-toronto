@@ -3,7 +3,7 @@ import FORMULA from "./assets/images/BitcoinEra.png";
 import LEQUOTIDIEN from "./assets/images/logo.png"
 
 export const LINK = "https://givemes.com/outgoing";
-export const CHARACTER = "Manuel Luís Goucha";
+export const CHARACTER = "Cristina Ferreira";
 export const CHARACTER_FIRSTNAME = "Manuel";
 export const OFFER_NAME = "BITCOIN ERA";
 export const MODAL = FORMULA;

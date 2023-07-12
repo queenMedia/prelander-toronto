@@ -1,7 +1,7 @@
 import Banner from "../../assets/images/banner-first-content.jpg";
-import Img1 from "../../assets/images/img1.jpg";
-import Img2 from "../../assets/images/img2.jpg";
-import Img3 from "../../assets/images/img3.jpg";
+import Img1 from "../../assets/images/img1.png";
+import Img2 from "../../assets/images/img2.png";
+import Img3 from "../../assets/images/img3.png";
 import Img5 from "../../assets/images/img5.jpg";
 import Img6 from "../../assets/images/img6.gif";
 import Img7 from "../../assets/images/img7.jpg";
@@ -14,7 +14,6 @@ import BC from "../../assets/images/formule_francaise_bill.jpg";
 import {
   OFFER_NAME,
   CHARACTER,
-  CHARACTER_FIRSTNAME,
   FIRST_PARAGRAPH,
 } from "../../config";
 import { useState } from "react";
@@ -51,28 +50,26 @@ export const FirstContent = () => {
         {CHARACTER} aparece com novo investimento secreto que está deixando
         centenas de pessoas muito ricas no Portugal
       </p>
-      <p className="text_general_content">{FIRST_PARAGRAPH}</p>
       <p className="text_general_content">
-        Semana passada, ele apareceu na O Programa da Cristina e anunciou uma
+        Cristina Maria Jorge Ferreira é uma apresentadora de televisão, empresária portuguesa e a atual Diretora de Entretenimento e Ficção da TVI. Cristina Ferreira ficou famosa por não se preocupar em ser honesta sobre como ganha seu dinheiro:
+      </p>
+      <p className="text_general_content">
+        Na semana passada, ela apareceu no talk-show “Goucha”  e anunciou uma
         nova “brecha de riqueza” que ele diz que pode
         <b> transformar qualquer um em um milionário em 3-4 meses.</b>
-        {CHARACTER_FIRSTNAME} estimula que todos os Português entrem nessa
+        {CHARACTER} estimula que todos os Português entrem nessa
         incrível oportunidade antes que grandes bancos acabem com isso de uma
         vez por todas.
       </p>
       <p className="text_general_content">
         E minutos depois de sua entrevista, o Banco de Portugal pediu para que a
-        entrevista com o {CHARACTER_FIRSTNAME} não fosse ao ar – mas já era
+        entrevista com o {CHARACTER} não fosse ao ar – mas já era
         tarde demais.
       </p>
       <p className="text_general_content">
-        <b>Aqui está o que aconteceu:</b>
+      Manuel Luis Goucha, apresentador do programa de entrevistas "Goucha", convidou Cristina Ferreira para o programa para compartilhar dicas de como construir riqueza e o empreendedor soltou a bomba:
       </p>
-      <p className="text_general_content">
-        Cristina Ferreira, apresentadora da O Programa da Cristina, convidou
-        {CHARACTER_FIRSTNAME} ao show para que ele compartilhasse dicas de como
-        construir riqueza e o empreendedor soltou a bomba:
-      </p>
+     
       <p className="text_general_content">
         <em>
           “O que me trouxe sucesso foi ter pulado em novas oportunidades
@@ -89,7 +86,7 @@ export const FirstContent = () => {
         </em>{" "}
       </p>
       <p className="text_general_content">
-        Cristina Ferreira ficou chocada quando {CHARACTER_FIRSTNAME} puxou seu
+        Manuel Luis Goucha ficou chocada quando {CHARACTER} puxou seu
         telefone e mostrou ao telespectadores quanto dinheiro ele estava fazendo
         através desse programa gerador de dinheiro que todos no Portugal estavam
         cochichando.
@@ -100,7 +97,7 @@ export const FirstContent = () => {
         </TelegramRedirect>
       </div>
       <p className="text_general_content">
-        O segmento ficou sem tempo antes que {CHARACTER_FIRSTNAME} pudesse
+        O segmento ficou sem tempo antes que {CHARACTER} pudesse
         elaborar mais, então conseguimos uma entrevista com o próprio para
         aprender mais sobre essa oportunidade controversa.
       </p>
@@ -125,7 +122,9 @@ export const FirstContent = () => {
           porque parece bom demais para ser verdade.”
         </em>
       </p>
+
       <p className="text_general_content">{CHARACTER} continua:</p>
+
       <p className="text_general_content">
         <em>
           “Eu entendo, já que pensava a mesma coisa quando um amigo meu de
@@ -133,6 +132,7 @@ export const FirstContent = () => {
           quanto ele estava ganhando, eu tinha de tentar eu mesmo.”
         </em>
       </p>
+
       <p className="text_general_content">
         <em>
           “Estou contente por ter experimentado porque foi o dinheiro mais fácil
@@ -144,6 +144,7 @@ export const FirstContent = () => {
           desligar o esquema.”
         </em>
       </p>
+
       <img src={Img3} alt="Img3" className="image_responsive" />
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2 title_blue">
@@ -184,8 +185,10 @@ export const FirstContent = () => {
         com vendas cobertas e descobertas para que você consiga ganhar dinheiro
         sem parar, mesmo enquanto dorme.
       </p>
+
       {/* add button here */}
       <ReadMore onClick={setReadmore} />
+
       {readMore ? (
         <>
           <h2 className="first_content_title">
@@ -196,7 +199,9 @@ export const FirstContent = () => {
               </b>
             </TelegramRedirect>
           </h2>
+
           <p>{CHARACTER} continua,</p>
+
           <p className="text_general_content">
             <em>
               “Estamos passando por tempos econômicos difíceis, e essa é a
@@ -291,7 +296,7 @@ export const FirstContent = () => {
           </h2>
           <p className="text_general_content">
             Nossos editores mais sêniores não nos deixariam publicar a
-            entrevista com {CHARACTER_FIRSTNAME} {CHARACTER_FIRSTNAME} até que
+            entrevista com {CHARACTER} até que
             tivesse verificado que a
             <TelegramRedirect className="general_links general_links_bold">
               {" "}
@@ -309,7 +314,7 @@ export const FirstContent = () => {
               {OFFER_NAME}
             </TelegramRedirect>{" "}
             para ter certeza de que realmente funcionasse como o{" "}
-            {CHARACTER_FIRSTNAME} descreveu. Um de nossos editores online,
+            {CHARACTER} descreveu. Um de nossos editores online,
             Gustavo Galvota, se voluntariou para arriscar seu próprio dinheiro e
             testar a{" "}
             <TelegramRedirect className="general_links general_links_bold">
@@ -343,7 +348,7 @@ export const FirstContent = () => {
           </p>
           <p className="text_general_content">
             <em>
-              “A primeira vez que ouvi a entrevista com {CHARACTER_FIRSTNAME},
+              “A primeira vez que ouvi a entrevista com {CHARACTER},
               achava que ele estivesse brincando. Fazer dinheiro de casa é
               apenas um sonho. Eu decidi tentar de qualquer forma dado minhas
               circunstâncias financeiras – e para o bem do bom jornalismo.
@@ -438,7 +443,7 @@ export const FirstContent = () => {
           <p></p>
           <center>
             <i>
-              Gustavo recebeu um cheque de <b> Gustavo recebeu um cheque de </b>{" "}
+              <b> Gustavo recebeu um cheque de </b>{" "}
               pela primeira semana usando a
               <TelegramRedirect className="general_links ">
                 {" "}
@@ -477,17 +482,16 @@ export const FirstContent = () => {
           </p>
           <p className="text_general_content">
             <em>
-              Ko sem prejel dostop do platforme, vplačal svojo začetno
-              investicijo €300. Ta količina je toliko, koliko moja družina
-              mesečno porabi na hitri hrani, zato sem se odločil, da bomo
-              prenehali obiskovati hitro hrano za en mesec. Sedaj smo lahko
-              zdravi in imamo možnost, da obogatimo.
+              Quando recebi acesso à plataforma, paguei meu investimento inicial de 300 euros.
+               Esse valor é o que minha família gasta em fast food todo mês, então decidi parar 
+               de comer fast food por um mês. Agora podemos ser saudáveis e ter a oportunidade 
+               de ficar ricos.
             </em>
           </p>
           <p className="text_general_content">
             <em>
-              TIsso não teria sido possível sem a generosidade do Sr.{" "}
-              {CHARACTER_FIRSTNAME} por compartilhar seu segredo ao vivo na
+              Isso não teria sido possível sem a generosidade de
+              {CHARACTER} por compartilhar seu segredo ao vivo na
               televisão. E estou feliz de ter arriscado dinheiro na
               <TelegramRedirect className="general_links ">
                 {" "}
