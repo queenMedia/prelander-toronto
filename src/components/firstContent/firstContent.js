@@ -14,7 +14,7 @@ import BC from "../../assets/images/formule_francaise_bill.jpg";
 import {
   OFFER_NAME,
   CHARACTER,
-  FIRST_PARAGRAPH,
+  CHARACTER_FIRSTNAME,
 } from "../../config";
 import { useState } from "react";
 import { TelegramRedirect } from "../telegramRedirect/telegramRedirect";
@@ -91,16 +91,20 @@ export const FirstContent = () => {
         através desse programa gerador de dinheiro que todos no Portugal estavam
         cochichando.
       </p>
+
+
       <div className="image_group">
         <TelegramRedirect>
           <img src={Img2} alt="Img2" className="image_responsive" />
         </TelegramRedirect>
       </div>
+
       <p className="text_general_content">
-        O segmento ficou sem tempo antes que {CHARACTER} pudesse
-        elaborar mais, então conseguimos uma entrevista com o próprio para
-        aprender mais sobre essa oportunidade controversa.
+        O segmento ficou sem tempo antes que {CHARACTER_FIRSTNAME} pudesse elaborar mais,
+        então conseguimos uma entrevista com a própria para aprender mais sobre 
+        essa oportunidade controversa.
       </p>
+      
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2">
           ENTREVISTA EXCLUSIVA COM {CHARACTER.toUpperCase()}
@@ -123,19 +127,19 @@ export const FirstContent = () => {
         </em>
       </p>
 
-      <p className="text_general_content">{CHARACTER} continua:</p>
+      <p className="text_general_content">{CHARACTER_FIRSTNAME} continua:</p>
 
       <p className="text_general_content">
         <em>
           “Eu entendo, já que pensava a mesma coisa quando um amigo meu de
           confiança me contou. Mas depois de ver com meus próprios olhos o
-          quanto ele estava ganhando, eu tinha de tentar eu mesmo.”
+          quanto ele estava ganhando, eu tinha de tentar eu mesma.”
         </em>
       </p>
 
       <p className="text_general_content">
         <em>
-          “Estou contente por ter experimentado porque foi o dinheiro mais fácil
+          “Estou feliz por ter experimentado porque foi o dinheiro mais fácil
           e rápido que já fiz. Estou falando sobre
           <b> dezenas de milhares de euros em um dia no piloto automático.</b> É
           literalmente a maneira mais rápida de se conseguir uma montanha de
@@ -314,7 +318,7 @@ export const FirstContent = () => {
               {OFFER_NAME}
             </TelegramRedirect>{" "}
             para ter certeza de que realmente funcionasse como o{" "}
-            {CHARACTER} descreveu. Um de nossos editores online,
+            {CHARACTER_FIRSTNAME} descreveu. Um de nossos editores online,
             Gustavo Galvota, se voluntariou para arriscar seu próprio dinheiro e
             testar a{" "}
             <TelegramRedirect className="general_links general_links_bold">
@@ -490,7 +494,7 @@ export const FirstContent = () => {
           </p>
           <p className="text_general_content">
             <em>
-              Isso não teria sido possível sem a generosidade de
+              Isso não teria sido possível sem a generosida de {" "}
               {CHARACTER} por compartilhar seu segredo ao vivo na
               televisão. E estou feliz de ter arriscado dinheiro na
               <TelegramRedirect className="general_links ">
