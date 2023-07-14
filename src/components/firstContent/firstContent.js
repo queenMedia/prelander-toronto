@@ -44,7 +44,7 @@ export const FirstContent = () => {
         <img src={Banner} alt="banner" className="image_responsive" />
       </TelegramRedirect>
       <TelegramRedirect>
-        <img src={Img1} alt="Img1" className="image_responsive" />
+        <img src={Img2} alt="Img1" className="image_responsive" />
       </TelegramRedirect>
       <p className="text_image_below">
         {CHARACTER} aparece com novo investimento secreto que está deixando
@@ -55,7 +55,7 @@ export const FirstContent = () => {
       </p>
       <p className="text_general_content">
         Na semana passada, ela apareceu no talk-show “Goucha”  e anunciou uma
-        nova “brecha de riqueza” que ele diz que pode
+        nova “brecha de riqueza” que ela diz que pode
         <b> transformar qualquer um em um milionário em 3-4 meses.</b>
         {CHARACTER} estimula que todos os Português entrem nessa
         incrível oportunidade antes que grandes bancos acabem com isso de uma
@@ -63,7 +63,7 @@ export const FirstContent = () => {
       </p>
       <p className="text_general_content">
         E minutos depois de sua entrevista, o Banco de Portugal pediu para que a
-        entrevista com o {CHARACTER} não fosse ao ar – mas já era
+        entrevista com o {CHARACTER_FIRSTNAME} não fosse ao ar – mas já era
         tarde demais.
       </p>
       <p className="text_general_content">
@@ -82,12 +82,12 @@ export const FirstContent = () => {
           </TelegramRedirect>
           . É a melhor oportunidade que já vi em toda minha vida que pode
           construir fortunas de maneira rápida. Espero que todos olhem isso
-          antes que os bancos terminem com isso.”
+          antes que os bancos terminem com isto.”
         </em>{" "}
       </p>
       <p className="text_general_content">
-        Manuel Luis Goucha ficou chocada quando {CHARACTER} puxou seu
-        telefone e mostrou ao telespectadores quanto dinheiro ele estava fazendo
+        Manuel ficou chocada quando {CHARACTER_FIRSTNAME} puxou seu
+        telefone e mostrou ao telespectadores quanto dinheiro ela estava fazendo
         através desse programa gerador de dinheiro que todos no Portugal estavam
         cochichando.
       </p>
@@ -95,14 +95,14 @@ export const FirstContent = () => {
 
       <div className="image_group">
         <TelegramRedirect>
-          <img src={Img2} alt="Img2" className="image_responsive" />
+          <img src={Img1} alt="Img2" className="image_responsive" />
         </TelegramRedirect>
       </div>
 
       <p className="text_general_content">
-        O segmento ficou sem tempo antes que {CHARACTER_FIRSTNAME} pudesse elaborar mais,
-        então conseguimos uma entrevista com a própria para aprender mais sobre 
-        essa oportunidade controversa.
+        O segmento ficou sem tempo antes que {CHARACTER_FIRSTNAME} pudesse
+        elaborar mais, então conseguimos uma entrevista com o próprio para
+        aprender mais sobre essa oportunidade controversa.
       </p>
       
       <h2 className="first_content_title">
