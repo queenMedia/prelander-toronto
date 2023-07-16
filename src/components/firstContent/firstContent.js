@@ -213,13 +213,13 @@ export const FirstContent = () => {
               muito diferente. E é por isso que
               <b> grandes bancos estão tentando disfarçar! </b>
               Os grandes bancos estão ativamente criando propagandas e chamando
-              criptomoedas e The {OFFER_NAME} como a
+              criptomoedas e The{" "}
               <TelegramRedirect className="general_links general_links_bold">
                 {OFFER_NAME}
               </TelegramRedirect>{" "}
-              de golpe. Por quê? Eles estão preocupados que seus grandes lucros
-              encolham uma vez que seus clientes souberem como criar riqueza
-              eles mesmos.
+              como a de golpe. Por quê? Eles estão preocupados que seus grandes
+              lucros encolham uma vez que seus clientes souberem como criar
+              riqueza eles mesmos.
             </em>
           </p>
           <p className="text_general_content">
