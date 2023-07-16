@@ -12,7 +12,7 @@ export const SUBTITLE_SECOND_LINE = `est-ce légitime?`;
 export const FIRST_PARAGRAPH = `${CHARACTER}, conhecido como apresentador de televisão e jornalista português. Manuel ficou famoso por não se preocupar em ser honesto sobre como ganha dinheiro.`;
 export const LOGO = LEQUOTIDIEN;
 export const PAGE = "torontoOffer.com";
-
+export const OFFER = "bitcoin360ai"; 
 export const handleRoute = async (section) => {
   gram(section);
   window.open(LINK, "_blank", "noopener,noreferrer");

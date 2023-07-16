@@ -12,7 +12,7 @@
 }
 .popup_container {
   position: relative;
-  padding: 30px;
+  padding: 10px 10px 20px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,9 +22,10 @@
 .popup_container_title_container{
   text-align: center;
   font-family: 'ModalFont';
+  margin-top: 5px;
 }
 .popup_container_title{
-  color: var(--text-white);
+  color: rgb(254, 206, 1);
   font-size: 23px;
   font-weight: 700;
   text-align: center;
@@ -37,7 +38,7 @@
 }
 .popup_container_close_container{
   width: 100%;
-  margin-top: -20px;
+  margin-top: 0px;
   display: flex;
   position: absolute;
   justify-content: flex-end;
@@ -89,8 +90,6 @@
   max-width: 2000px;
   padding: 9px 20px;
   border-radius: 5px;
-  background-color: #f8d263;
-  color: #000;
   font-family: "Roboto", sans-serif;
   animation: 1s ease 0s infinite normal none running animation-he6h7w;
   cursor: pointer;
