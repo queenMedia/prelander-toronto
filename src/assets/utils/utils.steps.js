@@ -10,7 +10,7 @@ export const stepsData = [
     },
     {
         title: "Passo 2:",
-        description: "Deposite o mínimo de €250",
+        description: "Deposite o mínimo de €300",
         img: step2
     },
     {

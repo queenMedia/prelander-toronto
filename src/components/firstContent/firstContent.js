@@ -164,7 +164,7 @@ export const FirstContent = () => {
         apesar do que a maioria das pessoas acha.
       </p>
       <p className="text_general_content">
-        Mesmo que o Bitcoin tenha caído do seu pico de $20,000 por Bitcoin,
+        Mesmo que o Bitcoin tenha caído do seu pico de $65,000 por Bitcoin,
         traders ainda estão lucrando muito. Por quê? Porque existem milhares de
         outras criptomoedas além do Bitcoin que estão sendo negociadas por
         grandes lucros diariamente.
