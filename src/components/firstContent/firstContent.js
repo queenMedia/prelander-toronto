@@ -6,7 +6,7 @@ import Img2 from "../../assets/images/img1-2.jpeg";
 import Img3 from "../../assets/images/img3-2.jpeg";
 import Img5 from "../../assets/images/img5.jpg";
 import Img6 from "../../assets/images/img6.gif";
-import Img7 from "../../assets/images/BITCOIN360Ai.jpg";
+import Img7 from "../../assets/images/ImmediateEdge.jpg";
 import Img8 from "../../assets/images/img8.jpg";
 import Img9 from "../../assets/images/img9.svg";
 import cheque from "../../assets/images/cheque.jpg";
