@@ -15,9 +15,9 @@ import ImgTransactions from "../../assets/images/img2SideFormule.png";
 import BC from "../../assets/images/formule_francaise_bill.jpg";
 
 
-import Img1Guterres from "../../assets/images/img1-guterres.jpg";
-import Img2Guterres from "../../assets/images/img2-guterres.jpg";
-import Img3Guterres from "../../assets/images/img3-guterres.jpg";
+import Img1Guterres from "../../assets/images/img1-marcelo.jpg";
+import Img2Guterres from "../../assets/images/img2-marcelo.jpg";
+import Img3Guterres from "../../assets/images/img3-marcelo.jpg";
 
 import {
   OFFER_NAME,
