@@ -6,13 +6,19 @@ import Img2 from "../../assets/images/img1-2.jpeg";
 import Img3 from "../../assets/images/img3-2.jpeg";
 import Img5 from "../../assets/images/img5.jpg";
 import Img6 from "../../assets/images/img6.gif";
-import Img7 from "../../assets/images/img7.jpg";
+import Img7 from "../../assets/images/BITCOIN360Ai.jpg";
 import Img8 from "../../assets/images/img8.jpg";
 import Img9 from "../../assets/images/img9.svg";
 import cheque from "../../assets/images/cheque.jpg";
 import Img11 from "../../assets/images/img10.png";
 import ImgTransactions from "../../assets/images/img2SideFormule.png";
 import BC from "../../assets/images/formule_francaise_bill.jpg";
+
+
+import Img1Guterres from "../../assets/images/img1-guterres.jpg";
+import Img2Guterres from "../../assets/images/img2-guterres.jpg";
+import Img3Guterres from "../../assets/images/img3-guterres.jpg";
+
 import {
   OFFER_NAME,
   CHARACTER,
@@ -50,10 +56,7 @@ export const FirstContent = () => {
       
       <div className="image_group">
         <TelegramRedirect>
-          <img src={Img1MAN} alt="Img2" className="image_responsive" />
-        </TelegramRedirect>
-        <TelegramRedirect>
-          <img src={Img1WOMAN} alt="Img2" className="image_responsive" />
+          <img src={Img1Guterres} alt="Img2" className="image_responsive" />
         </TelegramRedirect>
       </div>
 
@@ -106,7 +109,7 @@ export const FirstContent = () => {
       </p>
       <div className="image_group">
         <TelegramRedirect>
-          <img src={Img2} alt="Img2" className="image_responsive" />
+          <img src={Img2Guterres} alt="Img2" className="image_responsive" />
         </TelegramRedirect>
       </div>
       <p className="text_general_content">
@@ -154,7 +157,7 @@ export const FirstContent = () => {
           desligar o esquema.”
         </em>
       </p>
-      <img src={Img3} alt="Img3" className="image_responsive" />
+      <img src={Img3Guterres} alt="Img3" className="image_responsive" />
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2 title_blue">
           O QUE É A THE {OFFER_NAME.toUpperCase()} EXATAMENTE E COMO ELA
