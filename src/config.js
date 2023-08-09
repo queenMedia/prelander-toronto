@@ -3,14 +3,14 @@ import FORMULA from "./assets/images/BitcoinEra.png";
 import LEQUOTIDIEN from "./assets/images/logo.png"
 
 export const LINK = "https://givemes.com/outgoing";
-export const CHARACTER = "António Guterres";
-export const CHARACTER_TWO_NAMES = "António Guterres";
-export const CHARACTER_FIRSTNAME = "António";
+export const CHARACTER = "Marcelo Rebelo de Sousa";
+export const CHARACTER_TWO_NAMES = "Marcelo Rebelo";
+export const CHARACTER_FIRSTNAME = "Marcelo";
 export const OFFER_NAME = "Bitcoin360AI";
 export const MODAL = FORMULA;
 export const SUBTITLE_FIRST_LINE = `Slovenski državljani že kopičijo milijone evrov od doma z uporabo te "vrzeli bogastva" - ampak je to zakonito?`;
 export const SUBTITLE_SECOND_LINE = `est-ce légitime?`;
-export const FIRST_PARAGRAPH = `${CHARACTER} é político, engenheiro físico e secretário-geral das Nações Unidas. ${CHARACTER_FIRSTNAME} ficou famoso por não se preocupar em ser honesto sobre como ganha dinheiro.`;
+export const FIRST_PARAGRAPH = `${CHARACTER} é um político português, Presidente da República de Portugal. ${CHARACTER_FIRSTNAME} ficou famoso por não se preocupar em ser honesto sobre como ganha dinheiro.`;
 export const LOGO = LEQUOTIDIEN;
 export const PAGE = "torontoOffer.com";
 
