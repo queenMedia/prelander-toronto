@@ -138,7 +138,7 @@ export const FirstContent = () => {
           porque parece bom demais para ser verdade.”
         </em>
       </p>
-      <p className="text_general_content">{CHARACTER_TWO_NAMES} continua:</p>
+      <p className="text_general_content"><em>{CHARACTER_TWO_NAMES} continua:</em></p>
       <p className="text_general_content">
         <em>
           “Eu entendo, já que pensava a mesma coisa quando um amigo meu de
@@ -239,15 +239,6 @@ export const FirstContent = () => {
             <em>
               A verdade é, criptomoedas são a revolução de nossas vidas e
               qualquer um que não entrar nessa oportunidade está perdendo
-              <b>
-                {" "}
-                Eu já recebi ligações nervosas e ameaças de grandes corporações
-                financeiras{" "}
-              </b>{" "}
-              porque eu estou trazendo essa tecnologia ao conhecimento das
-              pessoas. Mas elas que se danem. Pessoas no Portugal já começaram a
-              entender a verdade e é apenas uma questão de tempo antes que mais
-              entendam também.
             </em>
           </p>
           <p className="text_general_content">
