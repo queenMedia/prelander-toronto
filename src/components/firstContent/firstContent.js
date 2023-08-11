@@ -138,7 +138,7 @@ export const FirstContent = () => {
           porque parece bom demais para ser verdade.”
         </em>
       </p>
-      <p className="text_general_content">{CHARACTER_TWO_NAMES} continua:</p>
+      <p className="text_general_content"><em>{CHARACTER_TWO_NAMES} continua:</em></p>
       <p className="text_general_content">
         <em>
           “Eu entendo, já que pensava a mesma coisa quando um amigo meu de
@@ -177,7 +177,7 @@ export const FirstContent = () => {
         apesar do que a maioria das pessoas acha.
       </p>
       <p className="text_general_content">
-        Mesmo que o Bitcoin tenha caído do seu pico de $20,000 por Bitcoin,
+        Mesmo que o Bitcoin tenha caído do seu pico de $65,000 por Bitcoin,
         traders ainda estão lucrando muito. Por quê? Porque existem milhares de
         outras criptomoedas além do Bitcoin que estão sendo negociadas por
         grandes lucros diariamente.
@@ -209,7 +209,7 @@ export const FirstContent = () => {
               </b>
             </TelegramRedirect>
           </h2>
-          <p>{CHARACTER_TWO_NAMES} continua,</p>
+          <p><em>{CHARACTER_TWO_NAMES} continua,</em></p>
           <p className="text_general_content">
             <em>
               “Estamos passando por tempos econômicos difíceis, e essa é a
@@ -239,15 +239,6 @@ export const FirstContent = () => {
             <em>
               A verdade é, criptomoedas são a revolução de nossas vidas e
               qualquer um que não entrar nessa oportunidade está perdendo
-              <b>
-                {" "}
-                Eu já recebi ligações nervosas e ameaças de grandes corporações
-                financeiras{" "}
-              </b>{" "}
-              porque eu estou trazendo essa tecnologia ao conhecimento das
-              pessoas. Mas elas que se danem. Pessoas no Portugal já começaram a
-              entender a verdade e é apenas uma questão de tempo antes que mais
-              entendam também.
             </em>
           </p>
           <p className="text_general_content">
