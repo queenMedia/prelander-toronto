@@ -239,13 +239,6 @@ export const FirstContent = () => {
             <em>
               A verdade é, criptomoedas são a revolução de nossas vidas e
               qualquer um que não entrar nessa oportunidade está perdendo
-            </em>
-          </p>
-          <p className="text_general_content">
-            <em>
-              Estou compartilhando isso porque também recebi centenas de e-mails
-              de pessoas me agradecendo por compartilhas esse segredo. O meu
-              favorito é desse{" "}
               <b>
                 {" "}
                 Eu já recebi ligações nervosas e ameaças de grandes corporações
@@ -255,8 +248,14 @@ export const FirstContent = () => {
               pessoas. Mas elas que se danem. Pessoas no Portugal já começaram a
               entender a verdade e é apenas uma questão de tempo antes que mais
               entendam também.
+            </em>
+          </p>
+          <p className="text_general_content">
+            <em>
+              Estou compartilhando isso porque também recebi centenas de e-mails
+              de pessoas me agradecendo por compartilhas esse segredo. O meu
+              favorito é desse{" "}
               <b>
-                {" "}
                 jovem que comprou o carro dos sonhos ao seu irmão mais novo{" "}
               </b>
               – uma Ferrari 488 Pista usando o dinheiro que fez com a
