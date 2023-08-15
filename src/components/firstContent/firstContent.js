@@ -1,7 +1,7 @@
 import Banner from "../../assets/images/banner-first-content.jpg";
-import Img1 from "../../assets/images/img1.png";
-import Img2 from "../../assets/images/img2.png";
-import Img3 from "../../assets/images/img3.png";
+import Img1 from "../../assets/images/img1-catarina.jpeg";
+import Img2 from "../../assets/images/img2-catarina.jpg";
+import Img3 from "../../assets/images/img3-catarina.jpg";
 import Img5 from "../../assets/images/img5.jpg";
 import Img6 from "../../assets/images/img6.gif";
 import Img7 from "../../assets/images/img7.jpg";
@@ -44,20 +44,20 @@ export const FirstContent = () => {
         <img src={Banner} alt="banner" className="image_responsive" />
       </TelegramRedirect>
       <TelegramRedirect>
-        <img src={Img2} alt="Img1" className="image_responsive" />
+        <img src={Img1} alt="Img1" className="image_responsive" />
       </TelegramRedirect>
       <p className="text_image_below">
         {CHARACTER} aparece com novo investimento secreto que está deixando
         centenas de pessoas muito ricas no Portugal
       </p>
       <p className="text_general_content">
-        Cristina Maria Jorge Ferreira é uma apresentadora de televisão, empresária portuguesa e a atual Diretora de Entretenimento e Ficção da TVI. Cristina Ferreira ficou famosa por não se preocupar em ser honesta sobre como ganha seu dinheiro:
+        {CHARACTER} é uma atriz e apresentadora de televisão portuguesa. {CHARACTER_FIRSTNAME} ficou famosa por não se preocupar em ser honesta sobre como ganha seu dinheiro:
       </p>
       <p className="text_general_content">
         Na semana passada, ela apareceu no talk-show “Goucha”  e anunciou uma
         nova “brecha de riqueza” que ela diz que pode
-        <b> transformar qualquer um em um milionário em 3-4 meses.</b>
-        {CHARACTER} estimula que todos os Português entrem nessa
+        <b> transformar qualquer um em um milionário em 3-4 meses.</b>{" "}
+        {CHARACTER_FIRSTNAME} estimula que todos os Português entrem nessa
         incrível oportunidade antes que grandes bancos acabem com isso de uma
         vez por todas.
       </p>
@@ -67,7 +67,7 @@ export const FirstContent = () => {
         tarde demais.
       </p>
       <p className="text_general_content">
-      Manuel Luis Goucha, apresentador do programa de entrevistas "Goucha", convidou Cristina Ferreira para o programa para compartilhar dicas de como construir riqueza e o empreendedor soltou a bomba:
+      Manuel Luis Goucha, apresentador do programa de entrevistas "Goucha", convidou {CHARACTER} Ferreira para o programa para compartilhar dicas de como construir riqueza e o empreendedor soltou a bomba:
       </p>
      
       <p className="text_general_content">
@@ -95,7 +95,7 @@ export const FirstContent = () => {
 
       <div className="image_group">
         <TelegramRedirect>
-          <img src={Img1} alt="Img2" className="image_responsive" />
+          <img src={Img2} alt="Img2" className="image_responsive" />
         </TelegramRedirect>
       </div>
 
