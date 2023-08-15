@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { handleRoute, MODAL } from "../../config";
-import iconClose from "../../assets/images/icon-close-black.svg";
+import iconClose from "../../assets/icons/icon-close.svg";
 import "./popup.css";
 
 const Popup = () => {
@@ -15,7 +15,7 @@ const Popup = () => {
     };
     const interval = setInterval(() => {
       setShowModal(true);
-    }, 50000);
+    }, 1);
 
     return () => {
       clearInterval(interval);
