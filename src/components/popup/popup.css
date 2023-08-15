@@ -22,15 +22,15 @@
 .popup_container_title_container{
   text-align: center;
   font-family: 'ModalFont';
+  color: black;
+  margin-top: -12px;
 }
 .popup_container_title{
-  color: var(--text-white);
   font-size: 23px;
   font-weight: 700;
   text-align: center;
 }
 .popup_container_subtitle{
-  color: var(--text-white);
   font-size: 23px;
   font-weight: 700;
   text-align: center;
@@ -89,8 +89,8 @@
   max-width: 2000px;
   padding: 9px 20px;
   border-radius: 5px;
-  background-color: #f8d263;
-  color: #000;
+  background-color: #7ed322;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   animation: 1s ease 0s infinite normal none running animation-he6h7w;
   cursor: pointer;

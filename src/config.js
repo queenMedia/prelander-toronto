@@ -1,5 +1,5 @@
 import axios from "axios";
-import FORMULA from "./assets/images/BitcoinEra.png";
+import FORMULA from "./assets/images/ImmediateEdge.jpg";
 import LEQUOTIDIEN from "./assets/images/logo.png"
 
 export const LINK = "https://givemes.com/outgoing";
