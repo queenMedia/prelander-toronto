@@ -5,7 +5,7 @@ import LEQUOTIDIEN from "./assets/images/logo.png"
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "Catarina Furtado";
 export const CHARACTER_FIRSTNAME = "Catarina";
-export const OFFER_NAME = "Immediate Edge";
+export const OFFER_NAME = "Bitcoin 360AI";
 export const MODAL = FORMULA;
 export const SUBTITLE_FIRST_LINE = `Slovenski državljani že kopičijo milijone evrov od doma z uporabo te "vrzeli bogastva" - ampak je to zakonito?`;
 export const SUBTITLE_SECOND_LINE = `est-ce légitime?`;
