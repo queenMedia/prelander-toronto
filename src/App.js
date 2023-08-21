@@ -32,7 +32,7 @@ function App() {
         <Content />
       </div>
       <Footer />
-      {/* <Popup /> */}
+      <Popup />
     </>
   );
 }

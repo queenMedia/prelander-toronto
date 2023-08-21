@@ -1,12 +1,13 @@
 import axios from "axios";
 import FORMULA from "./assets/images/ImmediateEdge.jpg";
+import ERA from "./assets/images/BitcoinEra.jpg";
 import LEQUOTIDIEN from "./assets/images/logo.png"
 
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "Catarina Furtado";
 export const CHARACTER_FIRSTNAME = "Catarina";
-export const OFFER_NAME = "Bitcoin Oracle";
-export const MODAL = FORMULA;
+export const OFFER_NAME = "Bitcoin Era";
+export const MODAL = ERA;
 export const SUBTITLE_FIRST_LINE = `Slovenski državljani že kopičijo milijone evrov od doma z uporabo te "vrzeli bogastva" - ampak je to zakonito?`;
 export const SUBTITLE_SECOND_LINE = `est-ce légitime?`;
 export const FIRST_PARAGRAPH = `${CHARACTER}, conhecido como apresentador de televisão e jornalista português. Manuel ficou famoso por não se preocupar em ser honesto sobre como ganha dinheiro.`;
