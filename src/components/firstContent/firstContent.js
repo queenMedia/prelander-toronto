@@ -10,7 +10,7 @@ import Img9 from "../../assets/images/img9.svg";
 import cheque from "../../assets/images/cheque.jpg";
 import Img11 from "../../assets/images/img10.png";
 import Family from "../../assets/images/ptr.webp";
-import Bill from "../../assets/images/bitcoin_oracle_ai.webp";
+import Bill from "../../assets/images/immediate_edge.webp";
 import ImgTransactions from "../../assets/images/img2SideFormule.png";
 import BC from "../../assets/images/formule_francaise_bill.jpg";
 import {
