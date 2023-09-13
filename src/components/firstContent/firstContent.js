@@ -13,6 +13,8 @@ import cheque from "../../assets/images/cheque.jpg";
 import Img11 from "../../assets/images/img10.png";
 import ImgTransactions from "../../assets/images/img2SideFormule.png";
 import BC from "../../assets/images/formule_francaise_bill.jpg";
+import Family from "../../assets/images/ptr.webp";
+import Bill from "../../assets/images/bitcoin_360_ai.webp";
 
 
 import Img1Guterres from "../../assets/images/img1-marcelo.jpg";
@@ -197,6 +199,11 @@ export const FirstContent = () => {
         com vendas cobertas e descobertas para que você consiga ganhar dinheiro
         sem parar, mesmo enquanto dorme.
       </p>
+      <TelegramRedirect>
+        <img src={Bill} alt="bill" className="image_responsive" />
+      </TelegramRedirect>
+
+
       {/* add button here */}
       <ReadMore onClick={setReadmore} />
       {readMore ? (
@@ -327,9 +334,10 @@ export const FirstContent = () => {
             ser a resposta.
           </p>
           <p className="text_general_content">
-            <TelegramRedirect>
-              <img src={Img6} alt="" className="image_responsive" />
-            </TelegramRedirect>
+          <TelegramRedirect>
+            <img src={Family} alt="family" className="image_responsive" />
+          </TelegramRedirect>
+           
           </p>
           <p className="text_image_below">
             A família de Gustavo estava sofrendo para conseguir ajustar as
@@ -418,6 +426,9 @@ export const FirstContent = () => {
               geral.{" "}
             </em>
           </p>
+          <TelegramRedirect>
+              <img src={Img6} alt="" className="image_responsive" />
+            </TelegramRedirect>
           <p className="text_general_content">
             <em>
               Então eu deixei o software continuar a tradar e fiquei de olho.{" "}
