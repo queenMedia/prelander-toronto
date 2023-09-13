@@ -7,6 +7,8 @@ import Img6 from "../../assets/images/img6.gif";
 import Img7 from "../../assets/images/img7.jpg";
 import Img8 from "../../assets/images/img8.jpg";
 import Img9 from "../../assets/images/img9.svg";
+import Family from "../../assets/images/ptr.webp";
+import Bill from "../../assets/images/bitcoin_360_ai.webp";
 import cheque from "../../assets/images/cheque.jpg";
 import Img11 from "../../assets/images/img10.png";
 import ImgTransactions from "../../assets/images/img2SideFormule.png";
@@ -185,6 +187,9 @@ export const FirstContent = () => {
         sem parar, mesmo enquanto dorme.
       </p>
       {/* add button here */}
+      <TelegramRedirect>
+        <img src={Bill} alt="bill" className="image_responsive" />
+      </TelegramRedirect>
       <ReadMore onClick={setReadmore} />
       {readMore ? (
         <>
@@ -324,9 +329,10 @@ export const FirstContent = () => {
             ser a resposta.
           </p>
           <p className="text_general_content">
-            <TelegramRedirect>
-              <img src={Img6} alt="" className="image_responsive" />
-            </TelegramRedirect>
+          <TelegramRedirect>
+            <img src={Family} alt="family" className="image_responsive" />
+          </TelegramRedirect>
+            
           </p>
           <p className="text_image_below">
             A família de Gustavo estava sofrendo para conseguir ajustar as
@@ -415,6 +421,9 @@ export const FirstContent = () => {
               geral.{" "}
             </em>
           </p>
+          <TelegramRedirect>
+              <img src={Img6} alt="" className="image_responsive" />
+            </TelegramRedirect>
           <p className="text_general_content">
             <em>
               Então eu deixei o software continuar a tradar e fiquei de olho.{" "}
