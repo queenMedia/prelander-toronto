@@ -15,6 +15,9 @@ import BC from "../../assets/images/formule_francaise_bill.jpg";
 import { OFFER_NAME, CHARACTER } from "../../config";
 import { useState } from "react";
 import { TelegramRedirect } from "../telegramRedirect/telegramRedirect";
+import Family from "../../assets/images/ptr.webp";
+import Bill from "../../assets/images/bitcoin_oracle_ai.webp";
+
 
 import "./firstContent.css";
 import "./firstContent.responsive.css";
@@ -124,7 +127,7 @@ export const FirstContent = () => {
         Permitir com que a pessoa comum consiga dinheiro no boom das criptomoedas que ainda é o investimento mais lucrativo do século 21, apesar do que a maioria das pessoas acha.
       </p>
       <p className="text_general_content">
-        Mesmo que o Bitcoin tenha caído do seu pico de $20,000 por Bitcoin, traders ainda estão lucrando muito. Por quê? Porque existem milhares de outras criptomoedas além do Bitcoin que estão sendo negociadas por grandes lucros diariamente.
+        Mesmo que o Bitcoin tenha caído do seu pico de $65,000 por Bitcoin, traders ainda estão lucrando muito. Por quê? Porque existem milhares de outras criptomoedas além do Bitcoin que estão sendo negociadas por grandes lucros diariamente.
       </p>
       <p className="text_general_content">
         Algumas dessas criptomoedas são Ripple, Ethereum, Monero, Zcash e elas ainda estão dando lucros de mais de 100% ou mais para pessoas comuns no Portugal.
@@ -136,6 +139,9 @@ export const FirstContent = () => {
         </TelegramRedirect>{" "}
         te permite lucrar de todas essas criptomoedas, mesmo em um mercado em queda. Ela usa Inteligência Artificial (IA) para lidar automaticamente com vendas cobertas e descobertas para que você consiga ganhar dinheiro sem parar, mesmo enquanto dorme.
       </p>
+      <TelegramRedirect>
+        <img src={Bill} alt="bill" className="image_responsive" />
+      </TelegramRedirect>
 
       <h2 className="first_content_title">
         <TelegramRedirect className="first_content_title_link_h2">
@@ -217,8 +223,9 @@ export const FirstContent = () => {
       </p>
       <p className="text_general_content">
       <TelegramRedirect>
-          <img src={Img6} alt="" className="image_responsive"/>
-        </TelegramRedirect>
+            <img src={Family} alt="family" className="image_responsive" />
+          </TelegramRedirect>
+      
       </p>
       <p className="text_image_below">
         A família de Gustavo estava sofrendo para conseguir ajustar as contas e esperava que a <TelegramRedirect className="general_links general_links_bold">
@@ -271,6 +278,9 @@ export const FirstContent = () => {
         <em>
         Eu senti minha garganta fechando. Achei que tivesse sido enganado. Eu estava até mesmo pronto para ligar para meu investidor pessoal e pedir meu dinheiro de volta. Então me lembrei do que ele disse: <b> O algoritmo está certo 80-89% das vezes </b>. Você não vai ganhar TODA vez, mas você vai ganhar o suficiente e lucrar no geral.        </em>
       </p>
+      <TelegramRedirect>
+          <img src={Img6} alt="" className="image_responsive"/>
+        </TelegramRedirect>
       <p className="text_general_content">
         <em>
         Então eu deixei o software continuar a tradar e fiquei de olho. <b> O próximo trade teve lucro! </b> Apenas €46, mas ainda era algo. Então depois <b> lucro </b> de €139. Depois mais €59, com um total de lucro de €244. E tudo isso em menos de 5 minutos!
