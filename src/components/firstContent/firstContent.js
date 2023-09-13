@@ -8,6 +8,8 @@ import Img5 from "../../assets/images/img5.jpg";
 import Img6 from "../../assets/images/img6.gif";
 import Img7 from "../../assets/images/ImmediateEdge.jpg";
 import Img8 from "../../assets/images/img8.jpg";
+import Family from "../../assets/images/ptr.webp";
+import Bill from "../../assets/images/immediate_edge.webp";
 import Img9 from "../../assets/images/img9.svg";
 import cheque from "../../assets/images/cheque.jpg";
 import Img11 from "../../assets/images/img10.png";
@@ -177,7 +179,7 @@ export const FirstContent = () => {
         apesar do que a maioria das pessoas acha.
       </p>
       <p className="text_general_content">
-        Mesmo que o Bitcoin tenha caído do seu pico de $20,000 por Bitcoin,
+        Mesmo que o Bitcoin tenha caído do seu pico de $65,000 por Bitcoin,
         traders ainda estão lucrando muito. Por quê? Porque existem milhares de
         outras criptomoedas além do Bitcoin que estão sendo negociadas por
         grandes lucros diariamente.
@@ -197,6 +199,9 @@ export const FirstContent = () => {
         com vendas cobertas e descobertas para que você consiga ganhar dinheiro
         sem parar, mesmo enquanto dorme.
       </p>
+<TelegramRedirect>
+        <img src={Bill} alt="bill" className="image_responsive" />
+      </TelegramRedirect>
       {/* add button here */}
       <ReadMore onClick={setReadmore} />
       {readMore ? (
@@ -337,9 +342,9 @@ export const FirstContent = () => {
             ser a resposta.
           </p>
           <p className="text_general_content">
-            <TelegramRedirect>
-              <img src={Img6} alt="" className="image_responsive" />
-            </TelegramRedirect>
+          <TelegramRedirect>
+            <img src={Family} alt="family" className="image_responsive" />
+          </TelegramRedirect>
           </p>
           <p className="text_image_below">
             A família de Gustavo estava sofrendo para conseguir ajustar as
@@ -428,6 +433,9 @@ export const FirstContent = () => {
               geral.{" "}
             </em>
           </p>
+          <TelegramRedirect>
+              <img src={Img6} alt="" className="image_responsive" />
+            </TelegramRedirect>
           <p className="text_general_content">
             <em>
               Então eu deixei o software continuar a tradar e fiquei de olho.{" "}
