@@ -6,20 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Cristina_BitGPT } from "./config";
 
-const router = createBrowserRouter([
-  {
-    path: "/old-jn-christina-bitgpt",
-    element: <App config={Cristina_BitGPT} />,
-  },
-]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <React.StrictMode>
-      <RouterProvider router={router} />
-    </React.StrictMode>
+    <App config={Cristina_BitGPT} />
   </React.StrictMode>
 );
 
