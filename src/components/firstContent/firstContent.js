@@ -16,7 +16,7 @@ import { OFFER_NAME, CHARACTER } from "../../config";
 import { useState } from "react";
 import { TelegramRedirect } from "../telegramRedirect/telegramRedirect";
 import Family from "../../assets/images/ptr.webp";
-import Bill from "../../assets/images/bitcoin_oracle_ai.webp";
+import Bill from "../../assets/images/crypto_genius.webp";
 
 
 import "./firstContent.css";
