@@ -1,11 +1,11 @@
-import Banner from "../../assets/images/banner-first-content.png";
-import Img5 from "../../assets/images/img4.jpg";
-import Img6 from "../../assets/images/img5.jpg";
+import Banner from "../../assets/images/banner-first-content.webp";
+import Img5 from "../../assets/images/img4.webp";
+import Img6 from "../../assets/images/img5.webp";
 import Img7 from "../../assets/images/img6.gif";
-import Img8 from "../../assets/images/img7.jpg";
-import Img9 from "../../assets/images/img8.png";
-import Img10 from "../../assets/images/img9.png";
-import Img11 from "../../assets/images/img10.png";
+import Img8 from "../../assets/images/img7.webp";
+import Img9 from "../../assets/images/img8.webp";
+import Img10 from "../../assets/images/img9.webp";
+import Img11 from "../../assets/images/img10.webp";
 import { OFFER_NAME, CHARACTER } from "../../config";
 import { TelegramRedirect } from "../telegramRedirect/telegramRedirect";
 
@@ -62,7 +62,7 @@ export const SecondContent = (props) => {
       </p>
       <p>
         <TelegramRedirect>
-          <img src={Img5} alt=""/>
+          <img loading="lazy"  src={Img5} alt=""/>
         </TelegramRedirect>
       </p>
       <center>
@@ -103,7 +103,7 @@ export const SecondContent = (props) => {
         težko shaja, in da je ta možnost investicije lahko rešitev.{" "}
       </p>
       <TelegramRedirect>
-        <img src={Img6} alt=""/>
+        <img loading="lazy"  src={Img6} alt=""/>
       </TelegramRedirect>
       <p></p>
       <center>
@@ -200,7 +200,7 @@ export const SecondContent = (props) => {
       </p>
       <div>
         <TelegramRedirect>
-          <img src={Img7} alt=""/>{" "}
+          <img loading="lazy"  src={Img7} alt=""/>{" "}
         </TelegramRedirect>
       </div>
       <center>
@@ -247,7 +247,7 @@ export const SecondContent = (props) => {
         </em>
       </p>
       <TelegramRedirect>
-        <img src={Img8} alt=""/>
+        <img loading="lazy"  src={Img8} alt=""/>
       </TelegramRedirect>
       <p></p>
       <center>
@@ -338,7 +338,7 @@ export const SecondContent = (props) => {
         </em>
       </p>
       <TelegramRedirect className="flux_cta">
-        <img src={Img9} alt=""/>
+        <img loading="lazy"  src={Img9} alt=""/>
       </TelegramRedirect>
       <p className="m-t-25">
         Nato vas bodo prosili, da 
@@ -348,7 +348,7 @@ export const SecondContent = (props) => {
         očitno je.
       </p>
       <TelegramRedirect className="flux_cta">
-        <img className="img-image_responsive_custom" src={Img10} alt=""/>
+        <img loading="lazy"  className="img-image_responsive_custom" src={Img10} alt=""/>
       </TelegramRedirect>
       <p className="m-t-25">
         Dejansko je bilo od mojega osebnega voditelja računa. Njegova storitev je bila odlična. Popeljal me je skozi celoten 
@@ -356,7 +356,7 @@ export const SecondContent = (props) => {
         sem in vplačal minimalno količino, ki je €300.{" "}
       </p>
       <TelegramRedirect className="flux_cta">
-        <img src={Img11} alt=""/>
+        <img loading="lazy"  src={Img11} alt=""/>
       </TelegramRedirect>
       <p className="m-t-25">
         Ko je bilo financiranja končano, sem krmaril do odseka "Samodejni Trgovec" programske opreme, nastavil količino izmenjav 

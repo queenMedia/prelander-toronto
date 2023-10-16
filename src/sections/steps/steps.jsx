@@ -3,7 +3,7 @@ import { StepCard } from "../../components/stepCard/stepCard"
 import { stepsData } from "../../assets/utils/utils.steps.js"
 import { TelegramRedirect } from "../../components/telegramRedirect/telegramRedirect";
 
-export const Steps = () => {
+const Steps = () => {
     return (
         <div className="steps-section">
             <h5 className="steps-title">
@@ -20,4 +20,5 @@ export const Steps = () => {
         </div>
     );
 };
-  
+
+export default Steps

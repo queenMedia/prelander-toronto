@@ -1,6 +1,6 @@
-import step1 from "../../assets/images/steps/step1.jpg"
-import step2 from "../../assets/images/steps/step2.jpg"
-import step3 from "../../assets/images/steps/step3.svg"
+import step1 from "../../assets/images/steps/step1.webp"
+import step2 from "../../assets/images/steps/step2.webp"
+import step3 from "../../assets/images/steps/step3.webp"
 
 export const stepsData = [
     {

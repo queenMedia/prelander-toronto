@@ -11,7 +11,7 @@ export const SessionHeader = (props) => {
           <span className="burguer_button_line"></span>
           <span className="burguer_button_line"></span>
         </a>
-        <img src={LOGO} className="logo_responsive" alt="Le Quotidien" />
+        <img loading="lazy"  src={LOGO} className="logo_responsive" alt="Le Quotidien" />
       </div>
       <div className="session_header_aside_container_right">
         <ul className="header_media_container_list">

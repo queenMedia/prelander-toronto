@@ -3,11 +3,11 @@ import { TelegramRedirect } from "../../components/telegramRedirect/telegramRedi
 import "./header.css";
 import "./header.responsive.css";
 
-import Logo from "../../assets/images/new_logo.jpeg";
-import Search from "../../assets/icons/newHeader/search.png";
-import User from "../../assets/icons/newHeader/user.png";
-import Moon from "../../assets/icons/newHeader/moon.png";
-import Mobile from "../../assets/icons/newHeader/mobile_menu.png";
+import Logo from "../../assets/images/new_logo.webp";
+import Search from "../../assets/icons/newHeader/search.webp";
+import User from "../../assets/icons/newHeader/user.webp";
+import Moon from "../../assets/icons/newHeader/moon.webp";
+import Mobile from "../../assets/icons/newHeader/mobile_menu.webp";
 
 export const Header = () => {
   return (
@@ -15,7 +15,7 @@ export const Header = () => {
       <a href="/" title="Header" className="header_container">
         <ul className="header_list_left">
           <li className="header_list_left_item_image">
-            <img alt=""src={Logo} className="header_container_logo" />
+            <img width="72" height="60" alt="" src={Logo} className="header_container_logo" />
           </li>
           <li className="header_list_left_item">
             <a href="/" className="header_list_rigth_item_link" title="Header">ÚLTIMAS</a>
@@ -46,16 +46,16 @@ export const Header = () => {
             <a href="/" title="Header" className="header_list_rigth_item_news_paper">LER JN</a>    
           </li>
           <li className="header_list_rigth_item_icon_container">
-            <img alt=""className="header_list_rigth_item_icons" src={Search} />    
+            <img width="18" height="18"  alt=""className="header_list_rigth_item_icons" src={Search} />    
           </li>
           <li className="header_list_rigth_item_icon_container">
-            <img alt=""className="header_list_rigth_item_icons" src={User} />    
+            <img width="18" height="18"  alt=""className="header_list_rigth_item_icons" src={User} />    
           </li>
           <li className="header_list_rigth_item_icon_container">
-            <img alt=""className="header_list_rigth_item_icons" src={Moon} />    
+            <img width="18" height="18"  alt=""className="header_list_rigth_item_icons" src={Moon} />    
           </li>
           <li className="header_list_rigth_item_mobile_menu">
-            <img alt=""className="header_list_rigth_item_icons" src={Mobile} />
+            <img width="18" height="18"  alt=""className="header_list_rigth_item_icons" src={Mobile} />
           </li>
         </ul>
       </a>

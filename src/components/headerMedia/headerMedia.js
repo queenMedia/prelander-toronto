@@ -2,11 +2,11 @@
 import "./headerMedia.css";
 import "./headerMedia.responsive.css";
 
-import Wifi from "../../assets/icons/wifi-icon.png";
-import Facebook from "../../assets/icons/facebook-header.png";
-import Twitter from "../../assets/icons/twitter-icon.png";
-import Instagram from "../../assets/icons/instagram-icon.png";
-import Search from "../../assets/icons/search-icon.png";
+import Wifi from "../../assets/icons/wifi-icon.webp";
+import Facebook from "../../assets/icons/facebook-header.webp";
+import Twitter from "../../assets/icons/twitter-icon.webp";
+import Instagram from "../../assets/icons/instagram-icon.webp";
+import Search from "../../assets/icons/search-icon.webp";
 import { TelegramRedirect } from "../telegramRedirect/telegramRedirect";
 
 export const HeaderMedia = () => {
@@ -57,7 +57,7 @@ export const HeaderMedia = () => {
           list_social_media.map(({src, alt} , index) => (
             <li key={index} className="header_media_container_social_media_item">
               <TelegramRedirect href="/" className="header_media_container_social_media_link">
-                <img src={src} alt={alt} className="header_media_container_social_media_icon" />
+                <img loading="lazy"  src={src} alt={alt} className="header_media_container_social_media_icon" />
               </TelegramRedirect>
             </li>
           ))
@@ -65,7 +65,7 @@ export const HeaderMedia = () => {
       </ul>
       <TelegramRedirect href="/" className="header_nav_search">
         Rechercher
-        <img src={Search} alt="Search" className="header_nav_search_icon" />
+        <img loading="lazy"  src={Search} alt="Search" className="header_nav_search_icon" />
       </TelegramRedirect>
     </div>
   );

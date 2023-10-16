@@ -39,7 +39,7 @@ const Popup = () => {
             }}
           >
             <div className="popup_container_close_container">
-              <img
+              <img loading="lazy" 
                 onClick={() => closeModal()}
                 className="popup_close"
                 src={iconClose}

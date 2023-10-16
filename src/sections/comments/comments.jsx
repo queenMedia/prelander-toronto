@@ -5,7 +5,7 @@ import { commentsData } from "../../assets/utils/utils.comments"
 import { CommentItem } from "../../components/commentItem/commentItem"
 import { TelegramRedirect } from "../../components/telegramRedirect/telegramRedirect";
 
-export function Comments() {
+const Comments = () => {
     return(
         <section className="comments-section">
             <div className="comments-content">
@@ -24,3 +24,4 @@ export function Comments() {
         </section>
     )
 }
+export default Comments

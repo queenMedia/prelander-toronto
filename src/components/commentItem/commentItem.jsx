@@ -7,7 +7,7 @@ export function CommentItem({currentComment}) {
     return(
         <div className="comment-item">
             <TelegramRedirect>
-                <img className="fb-profile-photo" src={currentComment.img} alt="" />
+                <img loading="lazy"  className="fb-profile-photo" src={currentComment.img} alt="" />
             </TelegramRedirect>
             <div className="comment-content">
                 <div className="comment-text">

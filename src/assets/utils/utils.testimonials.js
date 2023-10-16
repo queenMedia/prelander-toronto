@@ -1,11 +1,11 @@
 import { OFFER_NAME, LINK } from "../../config"
-import img1 from "../../assets/images/testimonials/1.jpg"
-import img2 from "../../assets/images/testimonials/2.jpg"
-import img3 from "../../assets/images/testimonials/3.jpg"
-import img4 from "../../assets/images/testimonials/4.jpg"
-import img5 from "../../assets/images/testimonials/5.jpg"
-import img6 from "../../assets/images/testimonials/6.jpg"
-import img7 from "../../assets/images/testimonials/7.jpg"
+import img1 from "../../assets/images/testimonials/1.webp"
+import img2 from "../../assets/images/testimonials/2.webp"
+import img3 from "../../assets/images/testimonials/3.webp"
+import img4 from "../../assets/images/testimonials/4.webp"
+import img5 from "../../assets/images/testimonials/5.webp"
+import img6 from "../../assets/images/testimonials/6.webp"
+import img7 from "../../assets/images/testimonials/7.webp"
 
 const linkHTML = `<a href="${LINK}">${OFFER_NAME}</a>`;
 

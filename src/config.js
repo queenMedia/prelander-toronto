@@ -1,6 +1,6 @@
 import axios from "axios";
-import FORMULA from "./assets/images/BitcoinEra.png";
-import LEQUOTIDIEN from "./assets/images/logo.png"
+import FORMULA from "./assets/images/BitcoinEra.webp";
+import LEQUOTIDIEN from "./assets/images/logo.webp"
 
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "André Claro Amaral Ventura";

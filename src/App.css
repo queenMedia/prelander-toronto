@@ -12,9 +12,9 @@
   --text-black: #000000;
   --text-light: #333333;
 
-  --bg-image-user: url("./assets/icons/user-fill-icon.png");
-  --bg-image-headphones: url("./assets/icons/newHeader/head_phones.png");
-  --bg-image-news: url("./assets/icons/newHeader/news_paper.png");
+  --bg-image-user: url("./assets/icons/user-fill-icon.webp");
+  --bg-image-headphones: url("./assets/icons/newHeader/head_phones.webp");
+  --bg-image-news: url("./assets/icons/newHeader/news_paper.webp");
   --bg-nav-header: #f1ebe4;
   --bg-header-top: #2c415c;
   

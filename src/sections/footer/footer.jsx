@@ -1,13 +1,12 @@
 import "./footer.css";
 import "./footer.responsive.css";
-import { TelegramRedirect } from "../../components/telegramRedirect/telegramRedirect";
-import Logo from "../../assets/images/new_logo_blue.jpeg";
+import Logo from "../../assets/images/new_logo_blue.webp";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="footer">
       <a href="/" title="Footer" className="footer_container">
-        <img src={Logo} alt="Logo" className="footer_container_logo" />
+        <img loading="lazy"  src={Logo} alt="Logo" className="footer_container_logo" />
         <ul className="footer_list_rigth">
           <div className="footer_list_rigth_sub_container">
             <li className="footer_list_rigth_item">
@@ -34,3 +33,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer
