@@ -63,6 +63,14 @@
   z-index: 9999;
 }
 
+.header_on_scroll{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #FFF;
+}
+
 .progress_bar {
   width: 100%;
   height: 6px;

@@ -5,10 +5,11 @@ import Popup from "./components/popup/popup.js";
 import  {handleRoute} from "./config"
 import "./App.css";
 import "./App.responsive.css";
-
+import useScrollPercentage from './hook/useScrollPercentage';
 const Footer = lazy(() => import('./sections/footer/footer'));
 
 function App() {
+  const scrollPercentage = useScrollPercentage();
   useEffect(() => {
     const handleLinkClick = (event) => {
       const linkTitle = event.currentTarget.getAttribute('title');
@@ -28,6 +29,9 @@ function App() {
   }, []);
   return (
     <>
+      <div className="header_on_scroll">
+        <Header />
+      </div>
       <Header />
       <div className="App">
         <Content />
